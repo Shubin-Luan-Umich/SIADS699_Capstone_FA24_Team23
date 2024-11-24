@@ -1,0 +1,2630 @@
+{
+    "browseFilterName": "group_id",
+    "browseFilterValue": "cat180010",
+    "breadcrumbsSeoJsonLd": "{\"itemListElement\":[{\"item\":{\"name\":\"Makeup\",\"@id\":\"https://www.sephora.com/shop/makeup-cosmetics\"},\"@type\":\"ListItem\",\"position\":1},{\"item\":{\"name\":\"Lip\",\"@id\":\"https://www.sephora.com/shop/lips-makeup\"},\"@type\":\"ListItem\",\"position\":2}],\"@type\":\"BreadcrumbList\",\"@context\":\"http://schema.org\"}",
+    "categories": [
+        {
+            "categoryId": "cat140006",
+            "displayName": "Makeup",
+            "level": 0,
+            "subCategories": [
+                {
+                    "categoryId": "cat180010",
+                    "displayName": "Lip",
+                    "isSelected": True,
+                    "level": 1,
+                    "recordCount": "503",
+                    "subCategories": [
+                        {
+                            "categoryId": "cat60057",
+                            "displayName": "Lip Balms & Treatments",
+                            "level": 2,
+                            "recordCount": "176",
+                            "targetUrl": "/shop/lip-balm-treatments-lips-makeup"
+                        },
+                        {
+                            "categoryId": "cat60047",
+                            "displayName": "Lip Gloss",
+                            "level": 2,
+                            "recordCount": "140",
+                            "targetUrl": "/shop/lip-gloss"
+                        },
+                        {
+                            "categoryId": "cat60049",
+                            "displayName": "Lipstick",
+                            "level": 2,
+                            "recordCount": "161",
+                            "targetUrl": "/shop/lipstick"
+                        },
+                        {
+                            "categoryId": "cat1710031",
+                            "displayName": "Liquid Lipstick",
+                            "level": 2,
+                            "recordCount": "39",
+                            "targetUrl": "/shop/liquid-lipstick"
+                        },
+                        {
+                            "categoryId": "cat60055",
+                            "displayName": "Lip Stain",
+                            "level": 2,
+                            "recordCount": "16",
+                            "targetUrl": "/shop/lip-stain"
+                        },
+                        {
+                            "categoryId": "cat60051",
+                            "displayName": "Lip Liner",
+                            "level": 2,
+                            "recordCount": "59",
+                            "targetUrl": "/shop/lip-liner-lip-pencils"
+                        },
+                        {
+                            "categoryId": "cat4360033",
+                            "displayName": "Lip Oil",
+                            "level": 2,
+                            "recordCount": "42",
+                            "targetUrl": "/shop/lip-oil"
+                        },
+                        {
+                            "categoryId": "cat60059",
+                            "displayName": "Lip Sets",
+                            "level": 2,
+                            "recordCount": "64",
+                            "targetUrl": "/shop/lip-palettes-gloss-sets"
+                        },
+                        {
+                            "categoryId": "cat60053",
+                            "displayName": "Lip Plumper",
+                            "level": 2,
+                            "recordCount": "57",
+                            "targetUrl": "/shop/lip-plumper"
+                        }
+                    ],
+                    "targetUrl": "/shop/lips-makeup"
+                }
+            ],
+            "targetUrl": "/shop/makeup-cosmetics"
+        }
+    ],
+    "categoryId": "cat180010",
+    "content": {
+        "sid": "Lip",
+        "slug": "lips-makeup",
+        "marketingTilePositions": [
+            "8",
+            "17",
+            "36",
+            "42",
+            "49",
+            "59"
+        ],
+        "ugcWidget": {
+            "widgetId": "5285794"
+        },
+        "marketingTiles": [
+            {
+                "sys": {
+                    "publishedVersion": 9,
+                    "id": "56lp9z72coUn4te0yJ6HFs"
+                },
+                "sid": "nars_explicitlip_CGT_shared_080124_FY243391",
+                "mediaPlacement": "top",
+                "action": {
+                    "type": "ActionLinkExternal",
+                    "sid": "nars_explicitlip_CGT_linkex_shared_080124_FY243391",
+                    "targetUrl": "/product/P512469"
+                },
+                "media": {
+                    "sid": "nars_explicitlip_CGT_media_shared_080124_FY243391",
+                    "src": "/contentimages/2024-8-1-nars-explicit-lipstick-site-desktop-mobile-content-grid-tile-en-us-can.jpg",
+                    "width": 460,
+                    "height": 772,
+                    "altText": "NEW FROM NARS | Meet the Explicit Lipstick: a luxurious, refillable formula that lasts all day. SHOP NOW >"
+                }
+            },
+            {
+                "sys": {
+                    "publishedVersion": 9,
+                    "id": "6j4TfgFL0XCe6LRH5T3hCA"
+                },
+                "sid": "farahomidi_bl_CGT_shared_060124_FY243336 ",
+                "mediaPlacement": "top",
+                "media": {
+                    "sid": "farahomidi_bl_CGT_media_shared_060124_FY243336 ",
+                    "src": "/contentimages/2024-6-1-fara-homidi-accelerate-brand-launch-site-desktop-mobile-content-grid-tile-en-us-can.jpg",
+                    "width": 460,
+                    "height": 772,
+                    "altText": "INTRODUCING FARA HOMIDI | Beauty like a pro with this luxe, minimalist lineup. SHOP NOW > | Image of Fara Homidi products."
+                },
+                "action": {
+                    "type": "ActionLinkInternal",
+                    "sid": "farahomidi_bl_linkin_CGT_shared_060124_FY243336 ",
+                    "page": {
+                        "type": "PageBrand",
+                        "slug": "fara-homidi"
+                    }
+                }
+            },
+            {
+                "sys": {
+                    "publishedVersion": 10,
+                    "id": "5wv9Tox29m0GazDP1kBXab"
+                },
+                "sid": "dior_lilac_cgt_050324_shared_FY243350",
+                "mediaPlacement": "top",
+                "action": {
+                    "type": "ActionLinkExternal",
+                    "sid": "dior_lilac_cgt_linkex_050324_shared_FY243350",
+                    "targetUrl": "/brand/dior?sortBy=NEW"
+                },
+                "media": {
+                    "sid": "dior_lilac_cgt_media_050324_shared_FY243350",
+                    "src": "/contentimages/2024-5-3-dior-lilac-collection-site-desktop-mobile-top-cat-nth-level-including-brand-pages-content-grid-tile-en-us-can.jpg",
+                    "width": 460,
+                    "height": 772,
+                    "altText": "DIOR GLOW ICONS IN PINK LILAC | Turn heads with this new, universally flattering shade. SHOP NOW > | Image of Dior products in Pink Lilac."
+                }
+            },
+            {
+                "sys": {
+                    "publishedVersion": 10,
+                    "id": "C4ONXCxJZ1kksZo6SyeAE"
+                },
+                "sid": "ysllipstickBL_CGT_shared_040224_FY243339",
+                "mediaPlacement": "top",
+                "action": {
+                    "type": "ActionLinkExternal",
+                    "sid": "ysllipstickBL_CGT_linkex_shared_040224_FY243339",
+                    "targetUrl": "/product/P377710"
+                },
+                "media": {
+                    "sid": "ysllipstickBL_CGT_media_shared_040224_FY243339",
+                    "src": "/contentimages/2024-4-2-ysl-loveshine-lipstick-site-desktop-mobile-top-cat-nth-level-including-brand-pages-content-grid-tile-en-us-can.jpg",
+                    "width": 460,
+                    "height": 772,
+                    "altText": "NEW FROM YVES SAINT LAURENT | Swipe on this hydrating, oil-based lipstick that shines like a gloss. SHOP NOW >"
+                }
+            },
+            {
+                "sys": {
+                    "publishedVersion": 8,
+                    "id": "1TSmBGj7j32mjOlmumZEvq"
+                },
+                "sid": "FY243300_cgt_prada_BL_011524",
+                "mediaPlacement": "top",
+                "action": {
+                    "type": "ActionLinkExternal",
+                    "sid": "FY243300_cgt_prada_BL_011524",
+                    "targetUrl": "/brand/prada-beauty"
+                },
+                "media": {
+                    "sid": "FY243300_cgt_media_prada_BL_011524",
+                    "src": "/contentimages/2024-1-15-prada-brand-launch-site-desktop-mobile-content-grid-tile-en-us.jpg",
+                    "width": 460,
+                    "height": 772,
+                    "altText": "INTRODUCING PRADA BEAUTY | Cutting-edge, skincare-infused makeup in sustainably minded packaging. SHOP NOW >"
+                }
+            }
+        ]
+    },
+    "currentPage": 9,
+    "deliveryOptions": {
+        "pickup": {
+            "pickupStoreId": "800332",
+            "pickupStoreName": "Pickup: at Kohl's Ann Arbor"
+        },
+        "sameDay": {
+            "sameDayZipCode": "48108",
+            "sameDayTitle": "Same-Day Delivery"
+        }
+    },
+    "displayName": "Lip",
+    "enableNoindexMetaTag": False,
+    "linkEquityBlock": {
+        "links": [
+            {
+                "url": "https://www.sephora.com/shop/lip-gloss",
+                "anchorText": "Lip Gloss"
+            },
+            {
+                "url": "https://www.sephora.com/shop/lip-balm-lip-care",
+                "anchorText": "Lip Balm, Lip Moisturizer & Lip Care Products"
+            },
+            {
+                "url": "https://www.sephora.com/shop/lipstick",
+                "anchorText": "Lipsticks"
+            },
+            {
+                "url": "https://www.sephora.com/shop/lip-palettes-gloss-sets",
+                "anchorText": "Shop the Best Lip Kits, Lip Balm Kits & Sets"
+            },
+            {
+                "url": "https://www.sephora.com/shop/lip-liner-lip-pencils",
+                "anchorText": "Lip Liners"
+            },
+            {
+                "url": "https://www.sephora.com/shop/lip-stain",
+                "anchorText": "Lip Tints & Lip Stains"
+            },
+            {
+                "url": "https://www.sephora.com/shop/lip-plumper",
+                "anchorText": "Lip Plumpers"
+            },
+            {
+                "url": "https://www.sephora.com/shop/lip-brushes-lipstick-brushes",
+                "anchorText": "Lip Brushes & Lipstick Brushes"
+            },
+            {
+                "url": "https://www.sephora.com/shop/lip-oil",
+                "anchorText": "Lip Oils"
+            }
+        ]
+    },
+    "navigationSeoJsonLd": "{\"@type\":\"ItemList\",\"@context\":\"http://schema.org\",\"itemListElement\":[{\"url\":\"https://www.sephora.com/shop/makeup-cosmetics\",\"name\":\"Makeup\",\"@type\":\"SiteNavigationElement\",\"position\":1,\"description\":\"Shop the best makeup now at Sephora and earn points with every purchase! Not yet a Beauty Insider? Join now for FREE!\"},{\"url\":\"https://www.sephora.com/shop/skincare \",\"name\":\"Skincare\",\"@type\":\"SiteNavigationElement\",\"position\":2,\"description\":\"Shop skincare products at Sephora. Find top-rated products from leading skincare brands to help target specific skin concerns and revitalize your look.\"},{\"url\":\"https://www.sephora.com/shop/hair-products\",\"name\":\"Hair\",\"@type\":\"SiteNavigationElement\",\"position\":3,\"description\":\"Explore our top-rated hair care products at Sephora. Browse an unrivaled selection of shampoos, conditioners, styling products, hair color and more from top brands.\"},{\"url\":\"https://www.sephora.com/shop/fragrance\",\"name\":\"Fragrance\",\"@type\":\"SiteNavigationElement\",\"position\":4,\"description\":\"Shop fragrances for women and men at Sephora. Find your favorite perfume or cologne or accentuate your style with a new scent.\"},{\"url\":\"https://www.sephora.com/shop/makeup-tools\",\"name\":\"Tools & Brushes\",\"@type\":\"SiteNavigationElement\",\"position\":5,\"description\":\"Shop beauty tools and accessories at Sephora. Find top-rated makeup tools, brushes, applicators, spa tools and more from leading brands.\"},{\"url\":\"https://www.sephora.com/shop/bath-body\",\"name\":\"Bath & Body\",\"@type\":\"SiteNavigationElement\",\"position\":6,\"description\":\"Shop bath & body products at Sephora. Find an unrivaled selection of the top moisturizers, cleansers, lotions, exfoliants, scrubs and more from top brands.\"},{\"url\":\"https://www.sephora.com/sale\",\"name\":\"Sale\",\"@type\":\"SiteNavigationElement\",\"position\":7,\"description\":\"Makeup sales are always on at Sephora. Shop discounted makeup, skincare, fragrance and hair care products at Sephora today. Free shipping and samples available.\"}]}",
+    "pageSize": 60,
+    "pageType": "Category",
+    "parentCategory": {
+        "categoryId": "cat140006",
+        "displayName": "Makeup",
+        "targetUrl": "/shop/makeup-cosmetics"
+    },
+    "products": [
+        {
+            "brandName": "GXVE BY GWEN STEFANI",
+            "currentSku": {
+                "biExclusiveLevel": "none",
+                "imageAltText": "GXVE BY GWEN STEFANI - Bubble Pop Electric High-Performance Clean Lip Gloss",
+                "isAppExclusive": False,
+                "isBI": False,
+                "isBest": False,
+                "isFirstAccess": False,
+                "isLimitedEdition": False,
+                "isLimitedTimeOffer": False,
+                "isNatural": False,
+                "isNew": False,
+                "isOnlineOnly": False,
+                "isOrganic": False,
+                "isSephoraExclusive": True,
+                "listPrice": "$20.00",
+                "salePrice": "$14.00",
+                "skuId": "2591055",
+                "skuType": "Standard"
+            },
+            "displayName": "Bubble Pop Electric High-Performance Clean Lip Gloss",
+            "heroImage": "https://www.sephora.com/productimages/sku/s2591055-main-zoom.jpg?imwidth=270&pb=clean-at-sephora",
+            "altImage": "https://www.sephora.com/productimages/sku/s2591055-av-7-zoom.jpg?imwidth=270",
+            "moreColors": 4,
+            "onSaleData": "FULL",
+            "productId": "P502289",
+            "rating": "4.3234",
+            "reviews": "501",
+            "pickupEligible": True,
+            "sameDayEligible": True,
+            "shipToHomeEligible": False,
+            "targetUrl": "/product/bubble-pop-electric-high-performance-clean-lip-gloss-P502289?skuId=2591055",
+            "sponsored": False
+        },
+        {
+            "brandName": "Kaja",
+            "currentSku": {
+                "biExclusiveLevel": "none",
+                "imageAltText": "Kaja - LOVE SWIPE Lightweight Cushiony Lip Mousse",
+                "isAppExclusive": False,
+                "isBI": False,
+                "isBest": False,
+                "isFirstAccess": False,
+                "isLimitedEdition": False,
+                "isLimitedTimeOffer": False,
+                "isNatural": False,
+                "isNew": False,
+                "isOnlineOnly": False,
+                "isOrganic": False,
+                "isSephoraExclusive": True,
+                "listPrice": "$21.00",
+                "salePrice": "$14.70",
+                "skuId": "2547537",
+                "skuType": "Standard"
+            },
+            "displayName": "LOVE SWIPE Lightweight Cushiony Lip Mousse",
+            "heroImage": "https://www.sephora.com/productimages/sku/s2547537-main-zoom.jpg?imwidth=270",
+            "altImage": "https://www.sephora.com/productimages/sku/s2547537-av-36-zoom.jpg?imwidth=270",
+            "moreColors": 4,
+            "onSaleData": "FULL",
+            "productId": "P481098",
+            "rating": "4.439",
+            "reviews": "246",
+            "pickupEligible": False,
+            "sameDayEligible": True,
+            "shipToHomeEligible": False,
+            "targetUrl": "/product/kaja-love-swipe-lightweight-cushiony-lip-mousse-P481098?skuId=2547537",
+            "sponsored": False
+        },
+        {
+            "brandName": "INC.redible",
+            "currentSku": {
+                "biExclusiveLevel": "none",
+                "imageAltText": "INC.redible - Jelly Shot",
+                "isAppExclusive": False,
+                "isBI": False,
+                "isBest": False,
+                "isFirstAccess": False,
+                "isLimitedEdition": False,
+                "isLimitedTimeOffer": False,
+                "isNatural": False,
+                "isNew": False,
+                "isOnlineOnly": True,
+                "isOrganic": False,
+                "isSephoraExclusive": False,
+                "listPrice": "$10.00",
+                "skuId": "2042257",
+                "skuType": "Standard"
+            },
+            "displayName": "Jelly Shot",
+            "heroImage": "https://www.sephora.com/productimages/sku/s2042257-main-zoom.jpg?imwidth=270",
+            "moreColors": 0,
+            "onSaleData": "NONE",
+            "productId": "P428120",
+            "rating": "2.508",
+            "reviews": "250",
+            "pickupEligible": False,
+            "sameDayEligible": False,
+            "shipToHomeEligible": False,
+            "targetUrl": "/product/jelly-shot-P428120?skuId=2042257",
+            "sponsored": False
+        },
+        {
+            "brandName": "CLINIQUE",
+            "currentSku": {
+                "biExclusiveLevel": "none",
+                "imageAltText": "CLINIQUE - Clinique Pop Liquid™ Matte Lip Colour + Primer Lipstick",
+                "isAppExclusive": False,
+                "isBI": False,
+                "isBest": False,
+                "isFirstAccess": False,
+                "isLimitedEdition": False,
+                "isLimitedTimeOffer": False,
+                "isNatural": False,
+                "isNew": False,
+                "isOnlineOnly": False,
+                "isOrganic": False,
+                "isSephoraExclusive": False,
+                "listPrice": "$19.50",
+                "skuId": "1860220",
+                "skuType": "Standard"
+            },
+            "displayName": "Clinique Pop Liquid™ Matte Lip Colour + Primer Lipstick",
+            "heroImage": "https://www.sephora.com/productimages/sku/s1860220-main-zoom.jpg?imwidth=270",
+            "altImage": "https://www.sephora.com/productimages/sku/s1860220-av-02-zoom.jpg?imwidth=270",
+            "moreColors": 0,
+            "onSaleData": "NONE",
+            "productId": "P411531",
+            "rating": "3.6774",
+            "reviews": "62",
+            "pickupEligible": False,
+            "sameDayEligible": False,
+            "shipToHomeEligible": False,
+            "targetUrl": "/product/pop-liquid-matte-lip-colour-P411531?skuId=1860220",
+            "sponsored": False
+        },
+        {
+            "brandName": "Then I Met You",
+            "currentSku": {
+                "biExclusiveLevel": "none",
+                "imageAltText": "Then I Met You - Honey Dew Hydrating and Exfoliating Lip Mask",
+                "isAppExclusive": False,
+                "isBI": False,
+                "isBest": False,
+                "isFirstAccess": False,
+                "isLimitedEdition": False,
+                "isLimitedTimeOffer": False,
+                "isNatural": False,
+                "isNew": True,
+                "isOnlineOnly": False,
+                "isOrganic": False,
+                "isSephoraExclusive": True,
+                "listPrice": "$24.00",
+                "skuId": "2828788",
+                "skuType": "Standard"
+            },
+            "displayName": "Honey Dew Hydrating and Exfoliating Lip Mask",
+            "heroImage": "https://www.sephora.com/productimages/sku/s2828788-main-zoom.jpg?imwidth=270",
+            "altImage": "https://www.sephora.com/productimages/sku/s2828788-av-01-zoom.jpg?imwidth=270",
+            "onSaleData": "NONE",
+            "productId": "P514200",
+            "rating": "4.8125",
+            "reviews": "32",
+            "pickupEligible": False,
+            "sameDayEligible": False,
+            "shipToHomeEligible": True,
+            "targetUrl": "/product/then-i-met-you-honey-dew-hydrating-exfoliating-lip-mask-P514200?skuId=2828788",
+            "sponsored": False
+        },
+        {
+            "brandName": "Yves Saint Laurent",
+            "currentSku": {
+                "biExclusiveLevel": "none",
+                "imageAltText": "Yves Saint Laurent - Rouge Pur Couture The Slim Matte Lipstick",
+                "isAppExclusive": False,
+                "isBI": False,
+                "isBest": False,
+                "isFirstAccess": False,
+                "isLimitedEdition": False,
+                "isLimitedTimeOffer": False,
+                "isNatural": False,
+                "isNew": False,
+                "isOnlineOnly": False,
+                "isOrganic": False,
+                "isSephoraExclusive": False,
+                "listPrice": "$48.00",
+                "skuId": "2341519",
+                "skuType": "Standard"
+            },
+            "displayName": "Rouge Pur Couture The Slim Matte Lipstick",
+            "heroImage": "https://www.sephora.com/productimages/sku/s2341519-main-zoom.jpg?imwidth=270",
+            "altImage": "https://www.sephora.com/productimages/sku/s2341519-av-05-zoom.jpg?imwidth=270",
+            "moreColors": 0,
+            "onSaleData": "NONE",
+            "productId": "P436506",
+            "rating": "4.535",
+            "reviews": "800",
+            "pickupEligible": False,
+            "sameDayEligible": False,
+            "shipToHomeEligible": False,
+            "targetUrl": "/product/rouge-pur-couture-matte-slim-lipstick-P436506?skuId=2341519",
+            "sponsored": False
+        },
+        {
+            "brandName": "Bobbi Brown",
+            "currentSku": {
+                "biExclusiveLevel": "none",
+                "imageAltText": "Bobbi Brown - Luxe Matte Lipstick",
+                "isAppExclusive": False,
+                "isBI": False,
+                "isBest": False,
+                "isFirstAccess": False,
+                "isLimitedEdition": False,
+                "isLimitedTimeOffer": False,
+                "isNatural": False,
+                "isNew": False,
+                "isOnlineOnly": False,
+                "isOrganic": False,
+                "isSephoraExclusive": False,
+                "listPrice": "$41.00",
+                "skuId": "2088607",
+                "skuType": "Standard"
+            },
+            "displayName": "Luxe Matte Lipstick",
+            "heroImage": "https://www.sephora.com/productimages/sku/s2088607-main-zoom.jpg?imwidth=270",
+            "altImage": "https://www.sephora.com/productimages/sku/s2088607-av-02-zoom.jpg?imwidth=270",
+            "moreColors": 0,
+            "onSaleData": "NONE",
+            "productId": "P434383",
+            "rating": "4.2719",
+            "reviews": "114",
+            "pickupEligible": False,
+            "sameDayEligible": False,
+            "shipToHomeEligible": False,
+            "targetUrl": "/product/luxe-matte-lipstick-P434383?skuId=2088607",
+            "sponsored": False
+        },
+        {
+            "brandName": "Tower 28 Beauty",
+            "currentSku": {
+                "biExclusiveLevel": "none",
+                "imageAltText": "Tower 28 Beauty - Line + Shine Lip Liner and Lip Gloss Set",
+                "isAppExclusive": False,
+                "isBI": False,
+                "isBest": False,
+                "isFirstAccess": False,
+                "isLimitedEdition": True,
+                "isLimitedTimeOffer": False,
+                "isNatural": False,
+                "isNew": False,
+                "isOnlineOnly": False,
+                "isOrganic": False,
+                "isSephoraExclusive": False,
+                "listPrice": "$24.00",
+                "skuId": "2735173",
+                "skuType": "Standard"
+            },
+            "displayName": "Line + Shine Lip Liner and Lip Gloss Set",
+            "heroImage": "https://www.sephora.com/productimages/sku/s2735173-main-zoom.jpg?imwidth=270&pb=clean-at-sephora",
+            "altImage": "https://www.sephora.com/productimages/sku/s2735173-av-3-zoom.jpg?imwidth=270",
+            "onSaleData": "NONE",
+            "productId": "P510518",
+            "rating": "4.4257",
+            "reviews": "101",
+            "pickupEligible": False,
+            "sameDayEligible": False,
+            "shipToHomeEligible": False,
+            "targetUrl": "/product/tower-28-line-shine-lip-liner-lip-gloss-set-P510518?skuId=2735173",
+            "sponsored": False
+        },
+        {
+            "brandName": "Sephora Favorites",
+            "currentSku": {
+                "biExclusiveLevel": "none",
+                "imageAltText": "Sephora Favorites - It's Giving Lip Value Set",
+                "isAppExclusive": False,
+                "isBI": False,
+                "isBest": False,
+                "isFirstAccess": False,
+                "isLimitedEdition": True,
+                "isLimitedTimeOffer": False,
+                "isNatural": False,
+                "isNew": False,
+                "isOnlineOnly": False,
+                "isOrganic": False,
+                "isSephoraExclusive": True,
+                "listPrice": "$42.00",
+                "skuId": "2784940",
+                "skuType": "Standard"
+            },
+            "displayName": "It's Giving Lip Value Set",
+            "heroImage": "https://www.sephora.com/productimages/sku/s2784940-main-zoom.jpg?imwidth=270",
+            "altImage": "https://www.sephora.com/productimages/sku/s2784940-av-4-zoom.jpg?imwidth=270",
+            "onSaleData": "NONE",
+            "productId": "P512823",
+            "rating": "3.7887",
+            "reviews": "71",
+            "pickupEligible": False,
+            "sameDayEligible": False,
+            "shipToHomeEligible": False,
+            "targetUrl": "/product/its-giving-lip-P512823?skuId=2784940",
+            "sponsored": False
+        },
+        {
+            "brandName": "CLINIQUE",
+            "currentSku": {
+                "biExclusiveLevel": "none",
+                "imageAltText": "CLINIQUE - Quickliner™ For Lips Intense Lip Liner",
+                "isAppExclusive": False,
+                "isBI": False,
+                "isBest": False,
+                "isFirstAccess": False,
+                "isLimitedEdition": False,
+                "isLimitedTimeOffer": False,
+                "isNatural": False,
+                "isNew": False,
+                "isOnlineOnly": True,
+                "isOrganic": False,
+                "isSephoraExclusive": False,
+                "listPrice": "$22.00",
+                "skuId": "1719079",
+                "skuType": "Standard"
+            },
+            "displayName": "Quickliner™ For Lips Intense Lip Liner",
+            "heroImage": "https://www.sephora.com/productimages/sku/s1719079-main-zoom.jpg?imwidth=270",
+            "altImage": "https://www.sephora.com/productimages/sku/s1719079-av-01-zoom.jpg?imwidth=270",
+            "moreColors": 0,
+            "onSaleData": "NONE",
+            "productId": "P400708",
+            "rating": "4.25",
+            "reviews": "20",
+            "pickupEligible": False,
+            "sameDayEligible": False,
+            "shipToHomeEligible": False,
+            "targetUrl": "/product/quickliner-for-lips-intense-P400708?skuId=1719079",
+            "sponsored": False
+        },
+        {
+            "brandName": "DIOR",
+            "currentSku": {
+                "biExclusiveLevel": "none",
+                "imageAltText": "DIOR - Rouge Dior Ultra Care Liquid Lipstick",
+                "isAppExclusive": False,
+                "isBI": False,
+                "isBest": False,
+                "isFirstAccess": False,
+                "isLimitedEdition": False,
+                "isLimitedTimeOffer": False,
+                "isNatural": False,
+                "isNew": False,
+                "isOnlineOnly": False,
+                "isOrganic": False,
+                "isSephoraExclusive": False,
+                "listPrice": "$38.00 - $45.00",
+                "skuId": "2244333",
+                "skuType": "Standard"
+            },
+            "displayName": "Rouge Dior Ultra Care Liquid Lipstick",
+            "heroImage": "https://www.sephora.com/productimages/sku/s2244333-main-zoom.jpg?imwidth=270",
+            "altImage": "https://www.sephora.com/productimages/sku/s2244333-av-01-zoom.jpg?imwidth=270",
+            "moreColors": 1,
+            "onSaleData": "NONE",
+            "productId": "P450457",
+            "rating": "4.3235",
+            "reviews": "68",
+            "pickupEligible": False,
+            "sameDayEligible": False,
+            "shipToHomeEligible": False,
+            "targetUrl": "/product/rouge-dior-ultra-care-liquid-lipstick-P450457?skuId=2244333",
+            "sponsored": False
+        },
+        {
+            "brandName": "REFY",
+            "currentSku": {
+                "biExclusiveLevel": "none",
+                "imageAltText": "REFY - Summer Color Lip and Cheek Collection",
+                "isAppExclusive": False,
+                "isBI": False,
+                "isBest": False,
+                "isFirstAccess": False,
+                "isLimitedEdition": True,
+                "isLimitedTimeOffer": False,
+                "isNatural": False,
+                "isNew": False,
+                "isOnlineOnly": True,
+                "isOrganic": False,
+                "isSephoraExclusive": True,
+                "listPrice": "$45.00",
+                "skuId": "2763365",
+                "skuType": "Standard"
+            },
+            "displayName": "Summer Color Lip and Cheek Collection",
+            "heroImage": "https://www.sephora.com/productimages/sku/s2763365-main-zoom.jpg?imwidth=270",
+            "altImage": "https://www.sephora.com/productimages/sku/s2763365-av-21-zoom.jpg?imwidth=270",
+            "moreColors": 1,
+            "onSaleData": "NONE",
+            "productId": "P511961",
+            "rating": "4.1667",
+            "reviews": "24",
+            "pickupEligible": False,
+            "sameDayEligible": False,
+            "shipToHomeEligible": False,
+            "targetUrl": "/product/refy-beauty-summer-color-lip-cheek-collection-P511961?skuId=2763365",
+            "sponsored": False
+        },
+        {
+            "brandName": "Fenty Beauty by Rihanna",
+            "currentSku": {
+                "biExclusiveLevel": "none",
+                "imageAltText": "Fenty Beauty by Rihanna - Match Stix Color-Adaptive Cheek + Lip Stick",
+                "isAppExclusive": False,
+                "isBI": False,
+                "isBest": False,
+                "isFirstAccess": False,
+                "isLimitedEdition": False,
+                "isLimitedTimeOffer": False,
+                "isNatural": False,
+                "isNew": False,
+                "isOnlineOnly": False,
+                "isOrganic": False,
+                "isSephoraExclusive": False,
+                "listPrice": "$32.00",
+                "skuId": "2709368",
+                "skuType": "Standard"
+            },
+            "displayName": "Match Stix Color-Adaptive Cheek + Lip Stick",
+            "heroImage": "https://www.sephora.com/productimages/sku/s2709368-main-zoom.jpg?imwidth=270",
+            "altImage": "https://www.sephora.com/productimages/sku/s2709368-av-2-zoom.jpg?imwidth=270",
+            "moreColors": 0,
+            "onSaleData": "NONE",
+            "productId": "P506509",
+            "rating": "4.134",
+            "reviews": "97",
+            "pickupEligible": False,
+            "sameDayEligible": True,
+            "shipToHomeEligible": False,
+            "targetUrl": "/product/match-stix-color-adaptive-cheek-lip-stick-P506509?skuId=2709368",
+            "sponsored": False
+        },
+        {
+            "brandName": "CLINIQUE",
+            "currentSku": {
+                "biExclusiveLevel": "none",
+                "imageAltText": "CLINIQUE - Pop Splash™ Lip Gloss",
+                "isAppExclusive": False,
+                "isBI": False,
+                "isBest": False,
+                "isFirstAccess": False,
+                "isLimitedEdition": False,
+                "isLimitedTimeOffer": False,
+                "isNatural": False,
+                "isNew": False,
+                "isOnlineOnly": False,
+                "isOrganic": False,
+                "isSephoraExclusive": False,
+                "listPrice": "$22.00",
+                "skuId": "2023471",
+                "skuType": "Standard"
+            },
+            "displayName": "Pop Splash™ Lip Gloss",
+            "heroImage": "https://www.sephora.com/productimages/sku/s2023471-main-zoom.jpg?imwidth=270",
+            "altImage": "https://www.sephora.com/productimages/sku/s2023471-av-01-zoom.jpg?imwidth=270",
+            "moreColors": 0,
+            "onSaleData": "NONE",
+            "productId": "P428662",
+            "rating": "4.3701",
+            "reviews": "127",
+            "pickupEligible": False,
+            "sameDayEligible": False,
+            "shipToHomeEligible": False,
+            "targetUrl": "/product/marimekko-clinique-pop-splash-lip-gloss-P428662?skuId=2023471",
+            "sponsored": False
+        },
+        {
+            "brandName": "TOM FORD",
+            "currentSku": {
+                "biExclusiveLevel": "none",
+                "imageAltText": "TOM FORD - Lip Color Lipstick",
+                "isAppExclusive": False,
+                "isBI": False,
+                "isBest": False,
+                "isFirstAccess": False,
+                "isLimitedEdition": False,
+                "isLimitedTimeOffer": False,
+                "isNatural": False,
+                "isNew": False,
+                "isOnlineOnly": False,
+                "isOrganic": False,
+                "isSephoraExclusive": False,
+                "listPrice": "$59.00",
+                "skuId": "1917244",
+                "skuType": "Standard"
+            },
+            "displayName": "Lip Color Lipstick",
+            "heroImage": "https://www.sephora.com/productimages/sku/s1917244-main-zoom.jpg?imwidth=270",
+            "altImage": "https://www.sephora.com/productimages/sku/s1917244-av-01-zoom.jpg?imwidth=270",
+            "moreColors": 1,
+            "onSaleData": "NONE",
+            "productId": "P416057",
+            "rating": "4.5738",
+            "reviews": "861",
+            "pickupEligible": False,
+            "sameDayEligible": False,
+            "shipToHomeEligible": False,
+            "targetUrl": "/product/lip-color-P416057?skuId=1917244",
+            "sponsored": False
+        },
+        {
+            "brandName": "HUDA BEAUTY",
+            "currentSku": {
+                "biExclusiveLevel": "none",
+                "imageAltText": "HUDA BEAUTY - Power Bullet Matte Lipstick - Throwback Collection",
+                "isAppExclusive": False,
+                "isBI": False,
+                "isBest": False,
+                "isFirstAccess": False,
+                "isLimitedEdition": False,
+                "isLimitedTimeOffer": False,
+                "isNatural": False,
+                "isNew": False,
+                "isOnlineOnly": False,
+                "isOrganic": False,
+                "isSephoraExclusive": True,
+                "listPrice": "$27.00",
+                "skuId": "2198661",
+                "skuType": "Standard"
+            },
+            "displayName": "Power Bullet Matte Lipstick - Throwback Collection",
+            "heroImage": "https://www.sephora.com/productimages/sku/s2198661-main-zoom.jpg?imwidth=270",
+            "altImage": "https://www.sephora.com/productimages/sku/s2198661-av-04-zoom.jpg?imwidth=270",
+            "moreColors": 1,
+            "onSaleData": "NONE",
+            "productId": "P450511",
+            "rating": "4.0099",
+            "reviews": "303",
+            "pickupEligible": False,
+            "sameDayEligible": True,
+            "shipToHomeEligible": False,
+            "targetUrl": "/product/power-bullet-matte-lipstick-P450511?skuId=2198661",
+            "sponsored": False
+        },
+        {
+            "brandName": "MILK MAKEUP",
+            "currentSku": {
+                "biExclusiveLevel": "none",
+                "imageAltText": "MILK MAKEUP - KUSH Best Buds Hydrating Lip Oil Duo Set",
+                "isAppExclusive": False,
+                "isBI": False,
+                "isBest": False,
+                "isFirstAccess": False,
+                "isLimitedEdition": True,
+                "isLimitedTimeOffer": False,
+                "isNatural": False,
+                "isNew": True,
+                "isOnlineOnly": False,
+                "isOrganic": False,
+                "isSephoraExclusive": True,
+                "listPrice": "$29.00",
+                "skuId": "2810604",
+                "skuType": "Standard"
+            },
+            "displayName": "KUSH Best Buds Hydrating Lip Oil Duo Set",
+            "heroImage": "https://www.sephora.com/productimages/sku/s2810604-main-zoom.jpg?imwidth=270&pb=clean-at-sephora",
+            "altImage": "https://www.sephora.com/productimages/sku/s2810604-av-7-zoom.jpg?imwidth=270",
+            "moreColors": 0,
+            "onSaleData": "NONE",
+            "productId": "P513200",
+            "rating": "0.0",
+            "reviews": "0",
+            "pickupEligible": False,
+            "sameDayEligible": False,
+            "shipToHomeEligible": True,
+            "targetUrl": "/product/milk-makeup-kush-best-buds-hydrating-lip-oil-duo-set-P513200?skuId=2810604",
+            "sponsored": False
+        },
+        {
+            "brandName": "Bobbi Brown",
+            "currentSku": {
+                "biExclusiveLevel": "none",
+                "imageAltText": "Bobbi Brown - Crushed Liquid Lipstick",
+                "isAppExclusive": False,
+                "isBI": False,
+                "isBest": False,
+                "isFirstAccess": False,
+                "isLimitedEdition": False,
+                "isLimitedTimeOffer": False,
+                "isNatural": False,
+                "isNew": False,
+                "isOnlineOnly": False,
+                "isOrganic": False,
+                "isSephoraExclusive": False,
+                "listPrice": "$33.00",
+                "skuId": "2182806",
+                "skuType": "Standard"
+            },
+            "displayName": "Crushed Liquid Lipstick",
+            "heroImage": "https://www.sephora.com/productimages/sku/s2182806-main-zoom.jpg?imwidth=270",
+            "altImage": "https://www.sephora.com/productimages/sku/s2182806-av-3-zoom.jpg?imwidth=270",
+            "moreColors": 4,
+            "onSaleData": "NONE",
+            "productId": "P439913",
+            "rating": "4.4192",
+            "reviews": "804",
+            "pickupEligible": False,
+            "sameDayEligible": False,
+            "shipToHomeEligible": False,
+            "targetUrl": "/product/crushed-liquid-lip-P439913?skuId=2182806",
+            "sponsored": False
+        },
+        {
+            "brandName": "PAT McGRATH LABS",
+            "currentSku": {
+                "biExclusiveLevel": "none",
+                "imageAltText": "PAT McGRATH LABS - PermaGel Ultra Lip Pencil - Divine Rose II Collection",
+                "isAppExclusive": False,
+                "isBI": False,
+                "isBest": False,
+                "isFirstAccess": False,
+                "isLimitedEdition": True,
+                "isLimitedTimeOffer": False,
+                "isNatural": False,
+                "isNew": False,
+                "isOnlineOnly": True,
+                "isOrganic": False,
+                "isSephoraExclusive": True,
+                "listPrice": "$29.00",
+                "skuId": "2436756",
+                "skuType": "Standard"
+            },
+            "displayName": "PermaGel Ultra Lip Pencil - Divine Rose II Collection",
+            "heroImage": "https://www.sephora.com/productimages/sku/s2436756-main-zoom.jpg?imwidth=270",
+            "altImage": "https://www.sephora.com/productimages/sku/s2436756-av-02-zoom.jpg?imwidth=270",
+            "moreColors": 0,
+            "onSaleData": "NONE",
+            "productId": "P468849",
+            "rating": "3.75",
+            "reviews": "12",
+            "pickupEligible": False,
+            "sameDayEligible": False,
+            "shipToHomeEligible": False,
+            "targetUrl": "/product/pat-mcgrath-labs-permagel-ultra-lip-pencil-divine-rose-ii-collection-P468849?skuId=2436756",
+            "sponsored": False
+        },
+        {
+            "brandName": "NARS",
+            "currentSku": {
+                "biExclusiveLevel": "none",
+                "imageAltText": "NARS - Mini Afterglow Lip Shine Gloss Set",
+                "isAppExclusive": False,
+                "isBI": False,
+                "isBest": False,
+                "isFirstAccess": False,
+                "isLimitedEdition": True,
+                "isLimitedTimeOffer": False,
+                "isNatural": False,
+                "isNew": False,
+                "isOnlineOnly": False,
+                "isOrganic": False,
+                "isSephoraExclusive": True,
+                "listPrice": "$25.00",
+                "skuId": "2568764",
+                "skuType": "Standard"
+            },
+            "displayName": "Mini Afterglow Lip Shine Gloss Set",
+            "heroImage": "https://www.sephora.com/productimages/sku/s2568764-main-zoom.jpg?imwidth=270",
+            "altImage": "https://www.sephora.com/productimages/sku/s2568764-av-01-zoom.jpg?imwidth=270",
+            "onSaleData": "NONE",
+            "productId": "P482702",
+            "rating": "3.6538",
+            "reviews": "26",
+            "pickupEligible": False,
+            "sameDayEligible": True,
+            "shipToHomeEligible": False,
+            "targetUrl": "/product/nars-mini-afterglow-lip-shine-gloss-set-P482702?skuId=2568764",
+            "sponsored": False
+        },
+        {
+            "brandName": "MILK MAKEUP",
+            "currentSku": {
+                "biExclusiveLevel": "none",
+                "imageAltText": "MILK MAKEUP - Mini Odyssey Lip Oil Gloss Fun Size Faves Set",
+                "isAppExclusive": False,
+                "isBI": False,
+                "isBest": False,
+                "isFirstAccess": False,
+                "isLimitedEdition": True,
+                "isLimitedTimeOffer": False,
+                "isNatural": False,
+                "isNew": True,
+                "isOnlineOnly": False,
+                "isOrganic": False,
+                "isSephoraExclusive": True,
+                "listPrice": "$25.00",
+                "skuId": "2810612",
+                "skuType": "Standard"
+            },
+            "displayName": "Mini Odyssey Lip Oil Gloss Fun Size Faves Set",
+            "heroImage": "https://www.sephora.com/productimages/sku/s2810612-main-zoom.jpg?imwidth=270&pb=clean-at-sephora",
+            "altImage": "https://www.sephora.com/productimages/sku/s2810612-av-5-zoom.jpg?imwidth=270",
+            "moreColors": 0,
+            "onSaleData": "NONE",
+            "productId": "P513201",
+            "rating": "0",
+            "reviews": "0",
+            "pickupEligible": False,
+            "sameDayEligible": False,
+            "shipToHomeEligible": True,
+            "targetUrl": "/product/milk-makeup-odyssey-lip-oil-gloss-fun-size-faves-set-P513201?skuId=2810612",
+            "sponsored": False
+        },
+        {
+            "brandName": "HUDA BEAUTY",
+            "currentSku": {
+                "biExclusiveLevel": "none",
+                "imageAltText": "HUDA BEAUTY - 90s Brown Lip Liner and Lip Gloss Set",
+                "isAppExclusive": False,
+                "isBI": False,
+                "isBest": False,
+                "isFirstAccess": False,
+                "isLimitedEdition": True,
+                "isLimitedTimeOffer": False,
+                "isNatural": False,
+                "isNew": False,
+                "isOnlineOnly": False,
+                "isOrganic": False,
+                "isSephoraExclusive": True,
+                "listPrice": "$29.00",
+                "skuId": "2762870",
+                "skuType": "Standard"
+            },
+            "displayName": "90s Brown Lip Liner and Lip Gloss Set",
+            "heroImage": "https://www.sephora.com/productimages/sku/s2762870-main-zoom.jpg?imwidth=270",
+            "altImage": "https://www.sephora.com/productimages/sku/s2762870-av-2-zoom.jpg?imwidth=270",
+            "onSaleData": "NONE",
+            "productId": "P511296",
+            "rating": "3.9362",
+            "reviews": "47",
+            "pickupEligible": False,
+            "sameDayEligible": True,
+            "shipToHomeEligible": False,
+            "targetUrl": "/product/90s-brown-lip-liner-and-lip-gloss-set-P511296?skuId=2762870",
+            "sponsored": False
+        },
+        {
+            "brandName": "NATASHA DENONA",
+            "currentSku": {
+                "biExclusiveLevel": "none",
+                "imageAltText": "NATASHA DENONA - I Need A Nude Lipstick",
+                "isAppExclusive": False,
+                "isBI": False,
+                "isBest": False,
+                "isFirstAccess": False,
+                "isLimitedEdition": False,
+                "isLimitedTimeOffer": False,
+                "isNatural": False,
+                "isNew": False,
+                "isOnlineOnly": False,
+                "isOrganic": False,
+                "isSephoraExclusive": False,
+                "listPrice": "$27.00",
+                "skuId": "2243269",
+                "skuType": "Standard"
+            },
+            "displayName": "I Need A Nude Lipstick",
+            "heroImage": "https://www.sephora.com/productimages/sku/s2243269-main-zoom.jpg?imwidth=270",
+            "altImage": "https://www.sephora.com/productimages/sku/s2243269-av-01-zoom.jpg?imwidth=270",
+            "moreColors": 5,
+            "onSaleData": "NONE",
+            "productId": "P448848",
+            "rating": "3.8142",
+            "reviews": "183",
+            "pickupEligible": False,
+            "sameDayEligible": True,
+            "shipToHomeEligible": False,
+            "targetUrl": "/product/i-need-nude-lipstick-P448848?skuId=2243269",
+            "sponsored": False
+        }
+    ],
+    "refinements": [
+        {
+            "displayName": "Pickup & Delivery",
+            "type": "checkboxesWithDropDown",
+            "values": [
+                {
+                    "refinementValue": "filters[Pickup]=",
+                    "refinementValueDisplayName": "Pickup",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "refinementValue": "filters[SameDay]=",
+                    "refinementValueDisplayName": "Same-Day Delivery",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "refinementValue": "filters[ShipToHome]=",
+                    "refinementValueDisplayName": "Ship to",
+                    "refinementValueStatus": 1
+                }
+            ]
+        },
+        {
+            "displayName": "Ingredient Preferences",
+            "type": "checkboxes",
+            "values": [
+                {
+                    "count": 271,
+                    "refinementValue": "filters[Ingredient Preferences]=Vegan",
+                    "refinementValueDisplayName": "Vegan",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 187,
+                    "refinementValue": "filters[Ingredient Preferences]=Cruelty-Free",
+                    "refinementValueDisplayName": "Cruelty-Free",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 127,
+                    "refinementValue": "filters[Ingredient Preferences]=Clean at Sephora",
+                    "refinementValueDisplayName": "Clean at Sephora",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 248,
+                    "refinementValue": "filters[Ingredient Preferences]=Paraben-free",
+                    "refinementValueDisplayName": "Paraben-free",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 158,
+                    "refinementValue": "filters[Ingredient Preferences]=Sulfate-free",
+                    "refinementValueDisplayName": "Sulfate-free",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 94,
+                    "refinementValue": "filters[Ingredient Preferences]=Silicone Free",
+                    "refinementValueDisplayName": "Silicone Free",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 89,
+                    "refinementValue": "filters[Ingredient Preferences]=Fragrance Free",
+                    "refinementValueDisplayName": "Fragrance Free",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 4,
+                    "refinementValue": "filters[Ingredient Preferences]=Hydroquinone",
+                    "refinementValueDisplayName": "Hydroquinone",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 56,
+                    "refinementValue": "filters[Ingredient Preferences]=Antioxidants",
+                    "refinementValueDisplayName": "Antioxidants",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 71,
+                    "refinementValue": "filters[Ingredient Preferences]=Hyaluronic Acid",
+                    "refinementValueDisplayName": "Hyaluronic Acid",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 44,
+                    "refinementValue": "filters[Ingredient Preferences]=Alcohol Free",
+                    "refinementValueDisplayName": "Alcohol Free",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 7,
+                    "refinementValue": "filters[Ingredient Preferences]=Naturally Derived",
+                    "refinementValueDisplayName": "Naturally Derived",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 3,
+                    "refinementValue": "filters[Ingredient Preferences]=Non-Comedogenic",
+                    "refinementValueDisplayName": "Non-Comedogenic",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 21,
+                    "refinementValue": "filters[Ingredient Preferences]=Vitamin C",
+                    "refinementValueDisplayName": "Vitamin C",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 33,
+                    "refinementValue": "filters[Ingredient Preferences]=Peptides",
+                    "refinementValueDisplayName": "Peptides",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 7,
+                    "refinementValue": "filters[Ingredient Preferences]=AHAGlycolic Acid",
+                    "refinementValueDisplayName": "AHA/Glycolic Acid",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 19,
+                    "refinementValue": "filters[Ingredient Preferences]=Mineral",
+                    "refinementValueDisplayName": "Mineral",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 15,
+                    "refinementValue": "filters[Ingredient Preferences]=Oil-free",
+                    "refinementValueDisplayName": "Oil-free",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 3,
+                    "refinementValue": "filters[Ingredient Preferences]=Retinoid",
+                    "refinementValueDisplayName": "Retinoid",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 15,
+                    "refinementValue": "filters[Ingredient Preferences]=Squalane",
+                    "refinementValueDisplayName": "Squalane",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 1,
+                    "refinementValue": "filters[Ingredient Preferences]=Sulfur",
+                    "refinementValueDisplayName": "Sulfur",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 2,
+                    "refinementValue": "filters[Ingredient Preferences]=Zinc",
+                    "refinementValueDisplayName": "Zinc",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 1,
+                    "refinementValue": "filters[Ingredient Preferences]=Mineral Physical",
+                    "refinementValueDisplayName": "Mineral Physical",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 3,
+                    "refinementValue": "filters[Ingredient Preferences]=Niacinamide",
+                    "refinementValueDisplayName": "Niacinamide",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 1,
+                    "refinementValue": "filters[Ingredient Preferences]=Collagen",
+                    "refinementValueDisplayName": "Collagen",
+                    "refinementValueStatus": 1
+                }
+            ]
+        },
+        {
+            "displayName": "Rating",
+            "type": "radios",
+            "values": [
+                {
+                    "count": 373,
+                    "refinementValue": "filters[Rating]=\"4\"-\"inf\"",
+                    "refinementValueDisplayName": "4 & up",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 465,
+                    "refinementValue": "filters[Rating]=\"3\"-\"inf\"",
+                    "refinementValueDisplayName": "3 & up",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 472,
+                    "refinementValue": "filters[Rating]=\"2\"-\"inf\"",
+                    "refinementValueDisplayName": "2 & up",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 474,
+                    "refinementValue": "filters[Rating]=\"1\"-\"inf\"",
+                    "refinementValueDisplayName": "1 & up",
+                    "refinementValueStatus": 1
+                }
+            ]
+        },
+        {
+            "displayName": "Brand",
+            "type": "checkboxes",
+            "values": [
+                {
+                    "count": 2,
+                    "refinementValue": "filters[Brand]=Summer Fridays",
+                    "refinementValueDisplayName": "Summer Fridays",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 24,
+                    "refinementValue": "filters[Brand]=SEPHORA COLLECTION",
+                    "refinementValueDisplayName": "SEPHORA COLLECTION",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 8,
+                    "refinementValue": "filters[Brand]=Tower 28 Beauty",
+                    "refinementValueDisplayName": "Tower 28 Beauty",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 18,
+                    "refinementValue": "filters[Brand]=Fenty Beauty by Rihanna",
+                    "refinementValueDisplayName": "Fenty Beauty by Rihanna",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 19,
+                    "refinementValue": "filters[Brand]=Charlotte Tilbury",
+                    "refinementValueDisplayName": "Charlotte Tilbury",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 6,
+                    "refinementValue": "filters[Brand]=LANEIGE",
+                    "refinementValueDisplayName": "LANEIGE",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 3,
+                    "refinementValue": "filters[Brand]=Saie",
+                    "refinementValueDisplayName": "Saie",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 6,
+                    "refinementValue": "filters[Brand]=Glossier",
+                    "refinementValueDisplayName": "Glossier",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 5,
+                    "refinementValue": "filters[Brand]=Rare Beauty by Selena Gomez",
+                    "refinementValueDisplayName": "Rare Beauty by Selena Gomez",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 1,
+                    "refinementValue": "filters[Brand]=OLEHENRIKSEN",
+                    "refinementValueDisplayName": "OLEHENRIKSEN",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 7,
+                    "refinementValue": "filters[Brand]=CLINIQUE",
+                    "refinementValueDisplayName": "CLINIQUE",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 2,
+                    "refinementValue": "filters[Brand]=Gisou",
+                    "refinementValueDisplayName": "Gisou",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 9,
+                    "refinementValue": "filters[Brand]=Yves Saint Laurent",
+                    "refinementValueDisplayName": "Yves Saint Laurent",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 13,
+                    "refinementValue": "filters[Brand]=DIOR",
+                    "refinementValueDisplayName": "DIOR",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 7,
+                    "refinementValue": "filters[Brand]=MILK MAKEUP",
+                    "refinementValueDisplayName": "MILK MAKEUP",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 9,
+                    "refinementValue": "filters[Brand]=MAKEUP BY MARIO",
+                    "refinementValueDisplayName": "MAKEUP BY MARIO",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 13,
+                    "refinementValue": "filters[Brand]=tarte",
+                    "refinementValueDisplayName": "tarte",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 4,
+                    "refinementValue": "filters[Brand]=Benefit Cosmetics",
+                    "refinementValueDisplayName": "Benefit Cosmetics",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 8,
+                    "refinementValue": "filters[Brand]=MAKE UP FOR EVER",
+                    "refinementValueDisplayName": "MAKE UP FOR EVER",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 9,
+                    "refinementValue": "filters[Brand]=Hourglass",
+                    "refinementValueDisplayName": "Hourglass",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 8,
+                    "refinementValue": "filters[Brand]=ILIA",
+                    "refinementValueDisplayName": "ILIA",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 8,
+                    "refinementValue": "filters[Brand]=Anastasia Beverly Hills",
+                    "refinementValueDisplayName": "Anastasia Beverly Hills",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 7,
+                    "refinementValue": "filters[Brand]=REFY",
+                    "refinementValueDisplayName": "REFY",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 4,
+                    "refinementValue": "filters[Brand]=Prada Beauty",
+                    "refinementValueDisplayName": "Prada Beauty",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 2,
+                    "refinementValue": "filters[Brand]=Sephora Favorites",
+                    "refinementValueDisplayName": "Sephora Favorites",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 11,
+                    "refinementValue": "filters[Brand]=LAWLESS",
+                    "refinementValueDisplayName": "LAWLESS",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 4,
+                    "refinementValue": "filters[Brand]=Fenty Skin",
+                    "refinementValueDisplayName": "Fenty Skin",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 18,
+                    "refinementValue": "filters[Brand]=NARS",
+                    "refinementValueDisplayName": "NARS",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 11,
+                    "refinementValue": "filters[Brand]=PAT McGRATH LABS",
+                    "refinementValueDisplayName": "PAT McGRATH LABS",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 4,
+                    "refinementValue": "filters[Brand]=Valentino",
+                    "refinementValueDisplayName": "Valentino",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 4,
+                    "refinementValue": "filters[Brand]=MERIT",
+                    "refinementValueDisplayName": "MERIT",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 8,
+                    "refinementValue": "filters[Brand]=HUDA BEAUTY",
+                    "refinementValueDisplayName": "HUDA BEAUTY",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 10,
+                    "refinementValue": "filters[Brand]=GXVE BY GWEN STEFANI",
+                    "refinementValueDisplayName": "GXVE BY GWEN STEFANI",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 6,
+                    "refinementValue": "filters[Brand]=Lancôme",
+                    "refinementValueDisplayName": "Lancôme",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 6,
+                    "refinementValue": "filters[Brand]=HAUS LABS BY LADY GAGA",
+                    "refinementValueDisplayName": "HAUS LABS BY LADY GAGA",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 4,
+                    "refinementValue": "filters[Brand]=Freck Beauty",
+                    "refinementValueDisplayName": "Freck Beauty",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 2,
+                    "refinementValue": "filters[Brand]=La Mer",
+                    "refinementValueDisplayName": "La Mer",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 4,
+                    "refinementValue": "filters[Brand]=Laura Mercier",
+                    "refinementValueDisplayName": "Laura Mercier",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 2,
+                    "refinementValue": "filters[Brand]=Kulfi",
+                    "refinementValueDisplayName": "Kulfi",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 3,
+                    "refinementValue": "filters[Brand]=Clarins",
+                    "refinementValueDisplayName": "Clarins",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 4,
+                    "refinementValue": "filters[Brand]=Urban Decay",
+                    "refinementValueDisplayName": "Urban Decay",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 9,
+                    "refinementValue": "filters[Brand]=Bobbi Brown",
+                    "refinementValueDisplayName": "Bobbi Brown",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 10,
+                    "refinementValue": "filters[Brand]=Gucci",
+                    "refinementValueDisplayName": "Gucci",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 4,
+                    "refinementValue": "filters[Brand]=Kaja",
+                    "refinementValueDisplayName": "Kaja",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 1,
+                    "refinementValue": "filters[Brand]=Mario Badescu",
+                    "refinementValueDisplayName": "Mario Badescu",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 5,
+                    "refinementValue": "filters[Brand]=Rosebud Perfume Co",
+                    "refinementValueDisplayName": "Rosebud Perfume Co.",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 1,
+                    "refinementValue": "filters[Brand]=Grande Cosmetics",
+                    "refinementValueDisplayName": "Grande Cosmetics",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 8,
+                    "refinementValue": "filters[Brand]=Kosas",
+                    "refinementValueDisplayName": "Kosas",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 6,
+                    "refinementValue": "filters[Brand]=fresh",
+                    "refinementValueDisplayName": "fresh",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 2,
+                    "refinementValue": "filters[Brand]=Topicals",
+                    "refinementValueDisplayName": "Topicals",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 8,
+                    "refinementValue": "filters[Brand]=PATRICK TA",
+                    "refinementValueDisplayName": "PATRICK TA",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 3,
+                    "refinementValue": "filters[Brand]=LYS Beauty",
+                    "refinementValueDisplayName": "LYS Beauty",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 2,
+                    "refinementValue": "filters[Brand]=Dr Jart",
+                    "refinementValueDisplayName": "Dr. Jart+",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 3,
+                    "refinementValue": "filters[Brand]=Sarah Creal",
+                    "refinementValueDisplayName": "Sarah Creal",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 1,
+                    "refinementValue": "filters[Brand]=EADEM",
+                    "refinementValueDisplayName": "EADEM",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 1,
+                    "refinementValue": "filters[Brand]=Sol de Janeiro",
+                    "refinementValueDisplayName": "Sol de Janeiro",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 3,
+                    "refinementValue": "filters[Brand]=Fashion Fair",
+                    "refinementValueDisplayName": "Fashion Fair",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 2,
+                    "refinementValue": "filters[Brand]=Tatcha",
+                    "refinementValueDisplayName": "Tatcha",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 4,
+                    "refinementValue": "filters[Brand]=Westman Atelier",
+                    "refinementValueDisplayName": "Westman Atelier",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 3,
+                    "refinementValue": "filters[Brand]=KVD Beauty",
+                    "refinementValueDisplayName": "KVD Beauty",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 12,
+                    "refinementValue": "filters[Brand]=TOM FORD",
+                    "refinementValueDisplayName": "TOM FORD",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 4,
+                    "refinementValue": "filters[Brand]=Danessa Myricks Beauty",
+                    "refinementValueDisplayName": "Danessa Myricks Beauty",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 9,
+                    "refinementValue": "filters[Brand]=NUDESTIX",
+                    "refinementValueDisplayName": "NUDESTIX",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 4,
+                    "refinementValue": "filters[Brand]=iNNBEAUTY PROJECT",
+                    "refinementValueDisplayName": "iNNBEAUTY PROJECT",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 4,
+                    "refinementValue": "filters[Brand]=Ami Colé",
+                    "refinementValueDisplayName": "Ami Colé",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 4,
+                    "refinementValue": "filters[Brand]=bareMinerals",
+                    "refinementValueDisplayName": "bareMinerals",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 2,
+                    "refinementValue": "filters[Brand]=Jack Black",
+                    "refinementValueDisplayName": "Jack Black",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 4,
+                    "refinementValue": "filters[Brand]=SIMIHAZE BEAUTY",
+                    "refinementValueDisplayName": "SIMIHAZE BEAUTY",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 13,
+                    "refinementValue": "filters[Brand]=Too Faced",
+                    "refinementValueDisplayName": "Too Faced",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 2,
+                    "refinementValue": "filters[Brand]=Mango People",
+                    "refinementValueDisplayName": "Mango People",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 3,
+                    "refinementValue": "filters[Brand]=Armani Beauty",
+                    "refinementValueDisplayName": "Armani Beauty",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 2,
+                    "refinementValue": "filters[Brand]=MARA",
+                    "refinementValueDisplayName": "MARA",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 1,
+                    "refinementValue": "filters[Brand]=Biossance",
+                    "refinementValueDisplayName": "Biossance",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 1,
+                    "refinementValue": "filters[Brand]=CAY SKIN",
+                    "refinementValueDisplayName": "CAY SKIN",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 11,
+                    "refinementValue": "filters[Brand]=Givenchy",
+                    "refinementValueDisplayName": "Givenchy",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 1,
+                    "refinementValue": "filters[Brand]=Hello Sunday",
+                    "refinementValueDisplayName": "Hello Sunday",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 2,
+                    "refinementValue": "filters[Brand]=Farmacy",
+                    "refinementValueDisplayName": "Farmacy",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 2,
+                    "refinementValue": "filters[Brand]=ONESIZE by Patrick Starrr",
+                    "refinementValueDisplayName": "ONESIZE by Patrick Starrr",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 1,
+                    "refinementValue": "filters[Brand]=IrisRomeo",
+                    "refinementValueDisplayName": "Iris&Romeo",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 2,
+                    "refinementValue": "filters[Brand]=Fara Homidi",
+                    "refinementValueDisplayName": "Fara Homidi",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 1,
+                    "refinementValue": "filters[Brand]=The INKEY List",
+                    "refinementValueDisplayName": "The INKEY List",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 1,
+                    "refinementValue": "filters[Brand]=Glow Recipe",
+                    "refinementValueDisplayName": "Glow Recipe",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 6,
+                    "refinementValue": "filters[Brand]=Buxom",
+                    "refinementValueDisplayName": "Buxom",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 2,
+                    "refinementValue": "filters[Brand]=GUERLAIN",
+                    "refinementValueDisplayName": "GUERLAIN",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 1,
+                    "refinementValue": "filters[Brand]=Drunk Elephant",
+                    "refinementValueDisplayName": "Drunk Elephant",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 2,
+                    "refinementValue": "filters[Brand]=caliray",
+                    "refinementValueDisplayName": "caliray",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 2,
+                    "refinementValue": "filters[Brand]=Supergoop!",
+                    "refinementValueDisplayName": "Supergoop!",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 9,
+                    "refinementValue": "filters[Brand]=NATASHA DENONA",
+                    "refinementValueDisplayName": "NATASHA DENONA",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 1,
+                    "refinementValue": "filters[Brand]=First Aid Beauty",
+                    "refinementValueDisplayName": "First Aid Beauty",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 2,
+                    "refinementValue": "filters[Brand]=Dr Dennis Gross Skincare",
+                    "refinementValueDisplayName": "Dr. Dennis Gross Skincare",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 1,
+                    "refinementValue": "filters[Brand]=MACRENE actives",
+                    "refinementValueDisplayName": "MACRENE actives",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 1,
+                    "refinementValue": "filters[Brand]=goop",
+                    "refinementValueDisplayName": "goop",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 1,
+                    "refinementValue": "filters[Brand]=Herbivore",
+                    "refinementValueDisplayName": "Herbivore",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 2,
+                    "refinementValue": "filters[Brand]=Iconic London",
+                    "refinementValueDisplayName": "Iconic London",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 1,
+                    "refinementValue": "filters[Brand]=Viseart",
+                    "refinementValueDisplayName": "Viseart",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 1,
+                    "refinementValue": "filters[Brand]=BeautyBio",
+                    "refinementValueDisplayName": "BeautyBio",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 1,
+                    "refinementValue": "filters[Brand]=Kiehl's Since 1851",
+                    "refinementValueDisplayName": "Kiehl's Since 1851",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 1,
+                    "refinementValue": "filters[Brand]=Saint Jane Beauty",
+                    "refinementValueDisplayName": "Saint Jane Beauty",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 1,
+                    "refinementValue": "filters[Brand]=Alpyn Beauty",
+                    "refinementValueDisplayName": "Alpyn Beauty",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 1,
+                    "refinementValue": "filters[Brand]=ROSE INC",
+                    "refinementValueDisplayName": "ROSE INC",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 1,
+                    "refinementValue": "filters[Brand]=INCredible",
+                    "refinementValueDisplayName": "INC.redible",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 1,
+                    "refinementValue": "filters[Brand]=Then I Met You",
+                    "refinementValueDisplayName": "Then I Met You",
+                    "refinementValueStatus": 1
+                }
+            ]
+        },
+        {
+            "displayName": "Concerns",
+            "type": "checkboxes",
+            "values": [
+                {
+                    "count": 74,
+                    "refinementValue": "filters[Concerns]=Dryness",
+                    "refinementValueDisplayName": "Dryness",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 25,
+                    "refinementValue": "filters[Concerns]=Dullness",
+                    "refinementValueDisplayName": "Dullness",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 12,
+                    "refinementValue": "filters[Concerns]=Loss of firmnessElasticity",
+                    "refinementValueDisplayName": "Loss of firmness/Elasticity",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 21,
+                    "refinementValue": "filters[Concerns]=Fine linesWrinkles",
+                    "refinementValueDisplayName": "Fine lines/Wrinkles",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 8,
+                    "refinementValue": "filters[Concerns]=Uneven texture",
+                    "refinementValueDisplayName": "Uneven texture",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 1,
+                    "refinementValue": "filters[Concerns]=Pores",
+                    "refinementValueDisplayName": "Pores",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 1,
+                    "refinementValue": "filters[Concerns]=Dark spots",
+                    "refinementValueDisplayName": "Dark spots",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 1,
+                    "refinementValue": "filters[Concerns]=Shine",
+                    "refinementValueDisplayName": "Shine",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 1,
+                    "refinementValue": "filters[Concerns]=Heat Protection",
+                    "refinementValueDisplayName": "Heat Protection",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 1,
+                    "refinementValue": "filters[Concerns]=Frizz",
+                    "refinementValueDisplayName": "Frizz",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 1,
+                    "refinementValue": "filters[Concerns]=Puffiness",
+                    "refinementValueDisplayName": "Puffiness",
+                    "refinementValueStatus": 1
+                }
+            ]
+        },
+        {
+            "displayName": "New",
+            "type": "checkboxes",
+            "values": [
+                {
+                    "count": 108,
+                    "refinementValue": "filters[isNew]=True",
+                    "refinementValueDisplayName": "New",
+                    "refinementValueStatus": 1
+                }
+            ],
+            "property": "single"
+        },
+        {
+            "displayName": "Color Family",
+            "type": "colors",
+            "values": [
+                {
+                    "count": 148,
+                    "refinementValue": "filters[Color Family]=Nude",
+                    "refinementValueDisplayName": "Nude",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 45,
+                    "refinementValue": "filters[Color Family]=Brown",
+                    "refinementValueDisplayName": "Brown",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 180,
+                    "refinementValue": "filters[Color Family]=Pink",
+                    "refinementValueDisplayName": "Pink",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 121,
+                    "refinementValue": "filters[Color Family]=Red",
+                    "refinementValueDisplayName": "Red",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 78,
+                    "refinementValue": "filters[Color Family]=Berry",
+                    "refinementValueDisplayName": "Berry",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 52,
+                    "refinementValue": "filters[Color Family]=Coral",
+                    "refinementValueDisplayName": "Coral",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 39,
+                    "refinementValue": "filters[Color Family]=Universal",
+                    "refinementValueDisplayName": "Universal",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 9,
+                    "refinementValue": "filters[Color Family]=Clear",
+                    "refinementValueDisplayName": "Clear",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 20,
+                    "refinementValue": "filters[Color Family]=Purple",
+                    "refinementValueDisplayName": "Purple",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 19,
+                    "refinementValue": "filters[Color Family]=Orange",
+                    "refinementValueDisplayName": "Orange",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 6,
+                    "refinementValue": "filters[Color Family]=Multi",
+                    "refinementValueDisplayName": "Multi",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 1,
+                    "refinementValue": "filters[Color Family]=Gold",
+                    "refinementValueDisplayName": "Gold",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 1,
+                    "refinementValue": "filters[Color Family]=Blue",
+                    "refinementValueDisplayName": "Blue",
+                    "refinementValueStatus": 1
+                }
+            ]
+        },
+        {
+            "displayName": "Shopping Preferences",
+            "type": "checkboxes",
+            "values": [
+                {
+                    "count": 17,
+                    "refinementValue": "filters[shoppingPreference]=Best of Allure",
+                    "refinementValueDisplayName": "Best of Allure",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 46,
+                    "refinementValue": "filters[shoppingPreference]=Black-Owned Brands",
+                    "refinementValueDisplayName": "Black-Owned Brands",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 105,
+                    "refinementValue": "filters[shoppingPreference]=Only at Sephora",
+                    "refinementValueDisplayName": "Only at Sephora",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 13,
+                    "refinementValue": "filters[shoppingPreference]=Planet Aware",
+                    "refinementValueDisplayName": "Planet Aware",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 64,
+                    "refinementValue": "filters[shoppingPreference]=Luxury Makeup",
+                    "refinementValueDisplayName": "Luxury Makeup",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 5,
+                    "refinementValue": "filters[shoppingPreference]=Luxury Skincare",
+                    "refinementValueDisplayName": "Luxury Skincare",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 3,
+                    "refinementValue": "filters[shoppingPreference]=FSAHSA Eligible",
+                    "refinementValueDisplayName": "FSA/HSA Eligible",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 1,
+                    "refinementValue": "filters[shoppingPreference]=Luxury Beauty",
+                    "refinementValueDisplayName": "Luxury Beauty",
+                    "refinementValueStatus": 1
+                }
+            ]
+        },
+        {
+            "displayName": "Finish",
+            "type": "checkboxes",
+            "values": [
+                {
+                    "count": 134,
+                    "refinementValue": "filters[Finish]=Matte",
+                    "refinementValueDisplayName": "Matte",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 146,
+                    "refinementValue": "filters[Finish]=High Shine",
+                    "refinementValueDisplayName": "High Shine",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 34,
+                    "refinementValue": "filters[Finish]=Shimmer",
+                    "refinementValueDisplayName": "Shimmer",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 68,
+                    "refinementValue": "filters[Finish]=Satin",
+                    "refinementValueDisplayName": "Satin",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 19,
+                    "refinementValue": "filters[Finish]=Natural",
+                    "refinementValueDisplayName": "Natural",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 5,
+                    "refinementValue": "filters[Finish]=Sheer",
+                    "refinementValueDisplayName": "Sheer",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 10,
+                    "refinementValue": "filters[Finish]=Radiant",
+                    "refinementValueDisplayName": "Radiant",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 1,
+                    "refinementValue": "filters[Finish]=Metallic",
+                    "refinementValueDisplayName": "Metallic",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 2,
+                    "refinementValue": "filters[Finish]=Glitter",
+                    "refinementValueDisplayName": "Glitter",
+                    "refinementValueStatus": 1
+                }
+            ]
+        },
+        {
+            "displayName": "Sale",
+            "type": "checkboxes",
+            "values": [
+                {
+                    "count": 20,
+                    "refinementValue": "filters[on_sale]=True",
+                    "refinementValueDisplayName": "Sale",
+                    "refinementValueStatus": 1
+                }
+            ],
+            "property": "single"
+        },
+        {
+            "displayName": "Formulation",
+            "type": "checkboxes",
+            "values": [
+                {
+                    "count": 55,
+                    "refinementValue": "filters[Formulation]=Liquid",
+                    "refinementValueDisplayName": "Liquid",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 42,
+                    "refinementValue": "filters[Formulation]=Rollerball",
+                    "refinementValueDisplayName": "Rollerball",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 5,
+                    "refinementValue": "filters[Formulation]=Mask",
+                    "refinementValueDisplayName": "Mask",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 71,
+                    "refinementValue": "filters[Formulation]=Stick",
+                    "refinementValueDisplayName": "Stick",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 5,
+                    "refinementValue": "filters[Formulation]=Oil",
+                    "refinementValueDisplayName": "Oil",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 11,
+                    "refinementValue": "filters[Formulation]=Cream",
+                    "refinementValueDisplayName": "Cream",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 1,
+                    "refinementValue": "filters[Formulation]=Scrub",
+                    "refinementValueDisplayName": "Scrub",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 5,
+                    "refinementValue": "filters[Formulation]=Gel",
+                    "refinementValueDisplayName": "Gel",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 3,
+                    "refinementValue": "filters[Formulation]=Serum",
+                    "refinementValueDisplayName": "Serum",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 2,
+                    "refinementValue": "filters[Formulation]=Pressed powder",
+                    "refinementValueDisplayName": "Pressed powder",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 1,
+                    "refinementValue": "filters[Formulation]=Balm",
+                    "refinementValueDisplayName": "Balm",
+                    "refinementValueStatus": 1
+                }
+            ]
+        },
+        {
+            "displayName": "Skin Type",
+            "type": "checkboxes",
+            "values": [
+                {
+                    "count": 10,
+                    "refinementValue": "filters[Skin Type]=Sensitive",
+                    "refinementValueDisplayName": "Sensitive",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 78,
+                    "refinementValue": "filters[Skin Type]=Dry",
+                    "refinementValueDisplayName": "Dry",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 76,
+                    "refinementValue": "filters[Skin Type]=Normal",
+                    "refinementValueDisplayName": "Normal",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 68,
+                    "refinementValue": "filters[Skin Type]=Combination",
+                    "refinementValueDisplayName": "Combination",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 66,
+                    "refinementValue": "filters[Skin Type]=Oily",
+                    "refinementValueDisplayName": "Oily",
+                    "refinementValueStatus": 1
+                }
+            ]
+        },
+        {
+            "displayName": "Benefits",
+            "type": "checkboxes",
+            "values": [
+                {
+                    "count": 148,
+                    "refinementValue": "filters[Benefits]=Hydrating",
+                    "refinementValueDisplayName": "Hydrating",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 101,
+                    "refinementValue": "filters[Benefits]=Long-wearing",
+                    "refinementValueDisplayName": "Long-wearing",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 46,
+                    "refinementValue": "filters[Benefits]=Plumping",
+                    "refinementValueDisplayName": "Plumping",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 3,
+                    "refinementValue": "filters[Benefits]=Volumizing",
+                    "refinementValueDisplayName": "Volumizing",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 1,
+                    "refinementValue": "filters[Benefits]=Curling",
+                    "refinementValueDisplayName": "Curling",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 14,
+                    "refinementValue": "filters[Benefits]=Transfer-resistant",
+                    "refinementValueDisplayName": "Transfer-resistant",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 12,
+                    "refinementValue": "filters[Benefits]=Transfer-proof",
+                    "refinementValueDisplayName": "Transfer-proof",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 13,
+                    "refinementValue": "filters[Benefits]=Moisturizing",
+                    "refinementValueDisplayName": "Moisturizing",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 4,
+                    "refinementValue": "filters[Benefits]=Waterproof",
+                    "refinementValueDisplayName": "Waterproof",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 1,
+                    "refinementValue": "filters[Benefits]=Strengthening",
+                    "refinementValueDisplayName": "Strengthening",
+                    "refinementValueStatus": 1
+                }
+            ]
+        },
+        {
+            "displayName": "Age Range",
+            "type": "checkboxes",
+            "values": [
+                {
+                    "count": 45,
+                    "refinementValue": "filters[Age Range]=20s",
+                    "refinementValueDisplayName": "20s",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 45,
+                    "refinementValue": "filters[Age Range]=30s",
+                    "refinementValueDisplayName": "30s",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 45,
+                    "refinementValue": "filters[Age Range]=40s",
+                    "refinementValueDisplayName": "40s",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 18,
+                    "refinementValue": "filters[Age Range]=50s",
+                    "refinementValueDisplayName": "50+",
+                    "refinementValueStatus": 1
+                }
+            ]
+        },
+        {
+            "displayName": "Coverage",
+            "type": "checkboxes",
+            "values": [
+                {
+                    "count": 7,
+                    "refinementValue": "filters[Coverage]=Light",
+                    "refinementValueDisplayName": "Light",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 10,
+                    "refinementValue": "filters[Coverage]=Full",
+                    "refinementValueDisplayName": "Full",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 7,
+                    "refinementValue": "filters[Coverage]=Sheer",
+                    "refinementValueDisplayName": "Sheer",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 11,
+                    "refinementValue": "filters[Coverage]=Medium",
+                    "refinementValueDisplayName": "Medium",
+                    "refinementValueStatus": 1
+                }
+            ]
+        },
+        {
+            "displayName": "Size",
+            "type": "checkboxes",
+            "values": [
+                {
+                    "count": 9,
+                    "refinementValue": "filters[sizeRefinement]=Gift Set",
+                    "refinementValueDisplayName": "Gift Set",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 31,
+                    "refinementValue": "filters[sizeRefinement]=Mini",
+                    "refinementValueDisplayName": "Mini",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 8,
+                    "refinementValue": "filters[sizeRefinement]=Refill",
+                    "refinementValueDisplayName": "Refill",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 8,
+                    "refinementValue": "filters[sizeRefinement]=Value",
+                    "refinementValueDisplayName": "Value",
+                    "refinementValueStatus": 1
+                }
+            ]
+        },
+        {
+            "displayName": "Sun Protections",
+            "type": "checkboxes",
+            "values": [
+                {
+                    "count": 3,
+                    "refinementValue": "filters[sunProtections]=SPF 30 and under",
+                    "refinementValueDisplayName": "SPF 30 and under",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 2,
+                    "refinementValue": "filters[sunProtections]=SPF over 30",
+                    "refinementValueDisplayName": "SPF over 30",
+                    "refinementValueStatus": 1
+                }
+            ]
+        },
+        {
+            "displayName": "Price Range",
+            "type": "range",
+            "values": [
+                {
+                    "refinementValue": "pl=min&ph=25",
+                    "refinementValueDisplayName": "Under $25",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "refinementValue": "pl=25&ph=50",
+                    "refinementValueDisplayName": "$25 to $50",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "refinementValue": "pl=50&ph=100",
+                    "refinementValueDisplayName": "$50 to $100",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "refinementValue": "pl=100&ph=max",
+                    "refinementValueDisplayName": "$100 and above",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "refinementValue": "pl=min&ph=max&ptype=manual",
+                    "refinementValueDisplayName": "min and max",
+                    "refinementValueStatus": 1
+                }
+            ]
+        },
+        {
+            "displayName": "Hair Texture",
+            "type": "checkboxes",
+            "values": [
+                {
+                    "count": 1,
+                    "refinementValue": "filters[hairTexture]=Wavy",
+                    "refinementValueDisplayName": "Wavy",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 1,
+                    "refinementValue": "filters[hairTexture]=Straight",
+                    "refinementValueDisplayName": "Straight",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 1,
+                    "refinementValue": "filters[hairTexture]=Curly",
+                    "refinementValueDisplayName": "Curly",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 1,
+                    "refinementValue": "filters[hairTexture]=Coily",
+                    "refinementValueDisplayName": "Coily",
+                    "refinementValueStatus": 1
+                }
+            ]
+        },
+        {
+            "displayName": "Hair Type",
+            "type": "checkboxes",
+            "values": [
+                {
+                    "count": 1,
+                    "refinementValue": "filters[hairType]=Fine",
+                    "refinementValueDisplayName": "Fine",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 1,
+                    "refinementValue": "filters[hairType]=Medium",
+                    "refinementValueDisplayName": "Medium",
+                    "refinementValueStatus": 1
+                },
+                {
+                    "count": 1,
+                    "refinementValue": "filters[hairType]=Thick",
+                    "refinementValueDisplayName": "Thick",
+                    "refinementValueStatus": 1
+                }
+            ]
+        }
+    ],
+    "responseSource": "NLP",
+    "seoCanonicalUrl": "/shop/lips-makeup",
+    "seoKeywords": [],
+    "seoMetaDescription": "Shop the best lip makeup now at Sephora and earn points with every purchase! Not yet a Beauty Insider? Join now for FREE!",
+    "seoName": "lips-makeup",
+    "seoTitle": "Lip Makeup | Sephora",
+    "targetUrl": "/shop/lips-makeup",
+    "template": 1,
+    "totalProducts": 503,
+    "ugcWidgetEnabled": False,
+    "responseFromMicroService": True,
+    "schemas": [
+        {
+            "@type": "ItemList",
+            "@context": "http://schema.org",
+            "itemListElement": [
+                {
+                    "url": "https://www.sephora.com/shop/makeup-cosmetics",
+                    "name": "Makeup",
+                    "@type": "SiteNavigationElement",
+                    "position": 1,
+                    "description": "Shop the best makeup now at Sephora and earn points with every purchase! Not yet a Beauty Insider? Join now for FREE!"
+                },
+                {
+                    "url": "https://www.sephora.com/shop/skincare ",
+                    "name": "Skincare",
+                    "@type": "SiteNavigationElement",
+                    "position": 2,
+                    "description": "Shop skincare products at Sephora. Find top-rated products from leading skincare brands to help target specific skin concerns and revitalize your look."
+                },
+                {
+                    "url": "https://www.sephora.com/shop/hair-products",
+                    "name": "Hair",
+                    "@type": "SiteNavigationElement",
+                    "position": 3,
+                    "description": "Explore our top-rated hair care products at Sephora. Browse an unrivaled selection of shampoos, conditioners, styling products, hair color and more from top brands."
+                },
+                {
+                    "url": "https://www.sephora.com/shop/fragrance",
+                    "name": "Fragrance",
+                    "@type": "SiteNavigationElement",
+                    "position": 4,
+                    "description": "Shop fragrances for women and men at Sephora. Find your favorite perfume or cologne or accentuate your style with a new scent."
+                },
+                {
+                    "url": "https://www.sephora.com/shop/makeup-tools",
+                    "name": "Tools & Brushes",
+                    "@type": "SiteNavigationElement",
+                    "position": 5,
+                    "description": "Shop beauty tools and accessories at Sephora. Find top-rated makeup tools, brushes, applicators, spa tools and more from leading brands."
+                },
+                {
+                    "url": "https://www.sephora.com/shop/bath-body",
+                    "name": "Bath & Body",
+                    "@type": "SiteNavigationElement",
+                    "position": 6,
+                    "description": "Shop bath & body products at Sephora. Find an unrivaled selection of the top moisturizers, cleansers, lotions, exfoliants, scrubs and more from top brands."
+                },
+                {
+                    "url": "https://www.sephora.com/sale",
+                    "name": "Sale",
+                    "@type": "SiteNavigationElement",
+                    "position": 7,
+                    "description": "Makeup sales are always on at Sephora. Shop discounted makeup, skincare, fragrance and hair care products at Sephora today. Free shipping and samples available."
+                }
+            ]
+        },
+        {
+            "itemListElement": [
+                {
+                    "item": {
+                        "name": "Makeup",
+                        "@id": "https://www.sephora.com/shop/makeup-cosmetics"
+                    },
+                    "@type": "ListItem",
+                    "position": 1
+                },
+                {
+                    "item": {
+                        "name": "Lip",
+                        "@id": "https://www.sephora.com/shop/lips-makeup"
+                    },
+                    "@type": "ListItem",
+                    "position": 2
+                }
+            ],
+            "@type": "BreadcrumbList",
+            "@context": "http://schema.org"
+        }
+    ]
+}

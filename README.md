@@ -103,9 +103,7 @@ We welcome contributions! Please feel free to submit a Pull Request.
 
 For questions or feedback, please contact our team:
 
-- Di Lu - diludl@umich.edu
-- Jingzhi Chen - jingzhic@umich.edu
 - Shubin Luan - shubinl@umich.edu
 
 ---
-Built with ❤️ by Team 15 | SIADS699 Capstone Project FA24
+Built with ❤️ by Team 23 | SIADS699 Capstone Project FA24

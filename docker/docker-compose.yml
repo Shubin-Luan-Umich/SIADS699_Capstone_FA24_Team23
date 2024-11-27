@@ -1,4 +1,4 @@
-version: '3'
+version: '3.8'
 services:
   frontend:
     build: ./frontend
@@ -20,6 +20,7 @@ services:
       - mysql
   mysql:
     image: mysql:8.0
+    command: --skip-host-cache --skip-name-resolve
     environment:
       MYSQL_ROOT_PASSWORD: rootpassword
       MYSQL_DATABASE: lipshadelab
@@ -29,6 +30,7 @@ services:
       - "3306:3306"
     volumes:
       - mysql_data:/var/lib/mysql
+      - ./mysql/my.cnf:/etc/mysql/conf.d/my.cnf
 
 volumes:
   mysql_data:

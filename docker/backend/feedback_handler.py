@@ -1,9 +1,12 @@
 import mysql.connector
 from datetime import datetime
-import time
+from typing import List, Dict, Optional
 
 class FeedbackHandler:
+    """Handles user feedback storage and retrieval for the lipstick recommendation system."""
+    
     def __init__(self):
+        """Initialize database configuration."""
         self.db_config = {
             'host': 'mysql',
             'user': 'lipshadeuser',
@@ -11,64 +14,193 @@ class FeedbackHandler:
             'database': 'lipshadelab'
         }
 
-
-    def init_db(self):
-        max_retries = 10
-        retry_delay = 5  # seconds
-        retries = 0
-
-        while retries < max_retries:
-            try:
-                conn = mysql.connector.connect(**self.db_config)
-                cursor = conn.cursor()
-
-                cursor.execute('''
-                    CREATE TABLE IF NOT EXISTS feedback (
-                        id INT AUTO_INCREMENT PRIMARY KEY,
-                        image_name VARCHAR(255),
-                        rating INT,
-                        feedback_text TEXT,
-                        created_at DATETIME
-                    )
-                ''')
-
-                conn.commit()
+    def init_db(self) -> None:
+        """Initialize database tables.
+        
+        Creates necessary tables if they don't exist.
+        """
+        try:
+            conn = mysql.connector.connect(**self.db_config)
+            cursor = conn.cursor()
+            
+            # Create feedback table
+            cursor.execute('''
+                CREATE TABLE IF NOT EXISTS feedback (
+                    id INT AUTO_INCREMENT PRIMARY KEY,
+                    image_name VARCHAR(255),
+                    cluster_id INT,
+                    rating INT CHECK (rating >= 1 AND rating <= 5),
+                    feedback_text TEXT,
+                    selected_products TEXT,
+                    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+                    user_agent VARCHAR(255),
+                    ip_address VARCHAR(45)
+                )
+            ''')
+            
+            # Create recommendations_feedback table
+            cursor.execute('''
+                CREATE TABLE IF NOT EXISTS recommendations_feedback (
+                    id INT AUTO_INCREMENT PRIMARY KEY,
+                    feedback_id INT,
+                    product_id VARCHAR(50),
+                    is_helpful BOOLEAN,
+                    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+                    FOREIGN KEY (feedback_id) REFERENCES feedback(id)
+                )
+            ''')
+            
+            conn.commit()
+            
+        except Exception as e:
+            print(f"Database initialization error: {str(e)}")
+            raise
+            
+        finally:
+            if 'cursor' in locals():
                 cursor.close()
+            if 'conn' in locals():
                 conn.close()
-                print("Database initialized successfully.")
-                break
-            except mysql.connector.Error as err:
-                print(f"Database connection failed: {err}")
-                retries += 1
-                print(f"Retrying ({retries}/{max_retries}) in {retry_delay} seconds...")
-                time.sleep(retry_delay)
-        else:
-            print("Could not connect to the database after several attempts.")
-            raise Exception("Database connection failed")
 
-    def save_feedback(self, image_name, rating, feedback_text):
-        conn = mysql.connector.connect(**self.db_config)
-        cursor = conn.cursor()
+    def save_feedback(self, 
+                     image_name: str,
+                     cluster_id: int,
+                     rating: int,
+                     feedback_text: str,
+                     selected_products: Optional[List[str]] = None,
+                     user_agent: Optional[str] = None,
+                     ip_address: Optional[str] = None) -> int:
+        """Save user feedback to database.
         
-        query = '''
-            INSERT INTO feedback (image_name, rating, feedback_text, created_at)
-            VALUES (%s, %s, %s, %s)
-        '''
-        values = (image_name, rating, feedback_text, datetime.now())
-        
-        cursor.execute(query, values)
-        conn.commit()
-        cursor.close()
-        conn.close()
+        Args:
+            image_name: Name of the uploaded image
+            cluster_id: ID of the color cluster
+            rating: User rating (1-5)
+            feedback_text: User feedback text
+            selected_products: List of selected product IDs
+            user_agent: User's browser information
+            ip_address: User's IP address
+            
+        Returns:
+            int: ID of the inserted feedback
+            
+        Raises:
+            ValueError: If rating is invalid
+            Exception: If database operation fails
+        """
+        if not 1 <= rating <= 5:
+            raise ValueError("Rating must be between 1 and 5")
+            
+        try:
+            conn = mysql.connector.connect(**self.db_config)
+            cursor = conn.cursor()
+            
+            query = '''
+                INSERT INTO feedback (
+                    image_name, cluster_id, rating, feedback_text, 
+                    selected_products, user_agent, ip_address
+                ) VALUES (%s, %s, %s, %s, %s, %s, %s)
+            '''
+            
+            values = (
+                image_name,
+                cluster_id,
+                rating,
+                feedback_text,
+                ','.join(selected_products) if selected_products else None,
+                user_agent,
+                ip_address
+            )
+            
+            cursor.execute(query, values)
+            conn.commit()
+            
+            return cursor.lastrowid
+            
+        except Exception as e:
+            print(f"Error saving feedback: {str(e)}")
+            raise
+            
+        finally:
+            if 'cursor' in locals():
+                cursor.close()
+            if 'conn' in locals():
+                conn.close()
 
-    def get_all_feedback(self):
-        conn = mysql.connector.connect(**self.db_config)
-        cursor = conn.cursor(dictionary=True)
+    def get_all_feedback(self) -> List[Dict]:
+        """Retrieve all feedback from database.
         
-        cursor.execute('SELECT * FROM feedback ORDER BY created_at DESC')
-        feedback_list = cursor.fetchall()
+        Returns:
+            List[Dict]: List of feedback entries
+        """
+        try:
+            conn = mysql.connector.connect(**self.db_config)
+            cursor = conn.cursor(dictionary=True)
+            
+            cursor.execute('''
+                SELECT 
+                    f.*,
+                    COUNT(rf.id) as recommendation_responses,
+                    SUM(rf.is_helpful) as helpful_count
+                FROM feedback f
+                LEFT JOIN recommendations_feedback rf ON f.id = rf.feedback_id
+                GROUP BY f.id
+                ORDER BY f.created_at DESC
+            ''')
+            
+            feedback_list = cursor.fetchall()
+            
+            # Convert datetime objects to string for JSON serialization
+            for feedback in feedback_list:
+                feedback['created_at'] = feedback['created_at'].isoformat()
+                if feedback['selected_products']:
+                    feedback['selected_products'] = \
+                        feedback['selected_products'].split(',')
+            
+            return feedback_list
+            
+        except Exception as e:
+            print(f"Error retrieving feedback: {str(e)}")
+            raise
+            
+        finally:
+            if 'cursor' in locals():
+                cursor.close()
+            if 'conn' in locals():
+                conn.close()
+
+    def add_recommendation_feedback(self,
+                                  feedback_id: int,
+                                  product_id: str,
+                                  is_helpful: bool) -> None:
+        """Add feedback for specific product recommendations.
         
-        cursor.close()
-        conn.close()
-        
-        return feedback_list
+        Args:
+            feedback_id: ID of the original feedback
+            product_id: ID of the recommended product
+            is_helpful: Whether the recommendation was helpful
+        """
+        try:
+            conn = mysql.connector.connect(**self.db_config)
+            cursor = conn.cursor()
+            
+            query = '''
+                INSERT INTO recommendations_feedback (
+                    feedback_id, product_id, is_helpful
+                ) VALUES (%s, %s, %s)
+            '''
+            
+            values = (feedback_id, product_id, is_helpful)
+            
+            cursor.execute(query, values)
+            conn.commit()
+            
+        except Exception as e:
+            print(f"Error adding recommendation feedback: {str(e)}")
+            raise
+            
+        finally:
+            if 'cursor' in locals():
+                cursor.close()
+            if 'conn' in locals():
+                conn.close()

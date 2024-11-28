@@ -45,7 +45,17 @@ cd docker
 
 2. Launch the application
 ```bash
-docker-compose up --build
+
+   # Clean up old containers and images
+   docker-compose down
+   docker system prune -f
+
+   # Delete node_modules
+   rm -rf frontend/node_modules
+
+   # Rebuild and start containers
+   docker-compose up --build
+
 ```
 
 3. Access the application at [http://localhost:3000](http://localhost:3000)

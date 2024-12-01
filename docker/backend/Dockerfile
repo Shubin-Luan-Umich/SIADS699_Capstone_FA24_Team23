@@ -1,4 +1,3 @@
-# Use a GPU-compatible base image if possible
 FROM python:3.10-slim
 
 # Install system dependencies

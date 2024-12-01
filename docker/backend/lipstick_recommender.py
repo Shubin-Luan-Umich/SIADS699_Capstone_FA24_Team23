@@ -110,7 +110,6 @@ class LipstickRecommender:
     def get_recommendations(
         self,
         image: np.ndarray,
-        # sort_by: str = 'color_similarity',
         sort_by: str = 'recommendation_score',
         n_recommendations: int = 10,
         min_price: Optional[float] = None,
@@ -118,35 +117,20 @@ class LipstickRecommender:
     ) -> RecommendationResult:
         """Get lipstick recommendations based on image and filters"""
         # Get skin tone
-        print("11", flush=True)
         skin_rgb = self.analyze_skin_tone(image)
         if skin_rgb is None:
             raise ValueError("No face detected in image")
-        print("12", flush=True)
-        print(skin_rgb, flush=True)
         # Find color cluster
         normalized_rgb = skin_rgb / 255.0
         cluster_id = self.kmeans_model.predict([normalized_rgb])[0]
-        print("cluster_id= " + str(cluster_id), flush=True)
-        print(self.df.columns, flush=True)
-        print("13", flush=True)
         # Filter products by cluster
         cluster_df = self.df[self.df['color_cluster'] == cluster_id].copy()
-        print("14", flush=True)
         # Apply price filter if specified
         if min_price is not None and max_price is not None:
-            print("min_price="+str(min_price), flush=True)
-            print("max_price="+str(max_price), flush=True)
             cluster_df = cluster_df[
                 (cluster_df['price_value'] >= min_price) &
                 (cluster_df['price_value'] <= max_price)
             ]
-        print("15", flush=True)
-        # print(cluster_df.head(), flush=True)
-        # print(cluster_df.columns, flush=True)
-        print("sort_by="+sort_by, flush=True)
-        # print(cluster_df['rgb_value'], flush=True)
-
         def parse_rgb_string(rgb_str):
             rgb_values = rgb_str[4:-1]
             r, g, b = map(int, rgb_values.split(','))
@@ -160,37 +144,24 @@ class LipstickRecommender:
         print("16", flush=True)
         # Sort based on criterion
         sort_criteria = {
-            'color_similarity': 'color_similarity',
+            # 'color_similarity': 'color_similarity',
             'recommendation_score': 'recommendation_score',
             'reviews': 'reviews',
             'rating': 'Rating',
             'price': 'price_value'
         }
-        print("17", flush=True)
         sort_ascending = sort_by == 'price'
         sorted_df = cluster_df.sort_values(
             sort_criteria[sort_by],
             ascending=sort_ascending
         ).head(n_recommendations)
-        print("18", flush=True)
         # Convert to list of dicts for JSON serialization
         recommendations = sorted_df[[
             'skuID', 'brandName', 'displayName', 'color_description',
             'price_value', 'Rating', 'reviews', 'recommendation_score',
             'cover_image_base64','lipstick_image_base64','full_url'
         ]].to_dict('records')
-        # recommendations = sorted_df[[
-        #     'skuID', 'brandName', 'displayName', 'color_description',
-        #     'price_value', 'Rating', 'reviews', 'recommendation_score'
-        # ]].to_dict('records')
-        print("19", flush=True)
-        print("=====", flush=True)
-        print(cluster_id, flush=True)
-        print("=====", flush=True)
-        print(self.CLUSTER_NAMES[cluster_id], flush=True)
-        print("=====", flush=True)
-        print(self.price_ranges[cluster_id], flush=True)
-        print("=====", flush=True)
+
         return RecommendationResult(
             cluster_id=cluster_id,
             cluster_name=self.CLUSTER_NAMES[cluster_id],

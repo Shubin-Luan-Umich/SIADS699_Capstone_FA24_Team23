@@ -15,7 +15,7 @@ class ImageProcessor:
     @staticmethod
     def allowed_file(filename: str) -> bool:
         """Check if file extension is allowed.
-        
+
         Args:
             filename: Name of the uploaded file
             

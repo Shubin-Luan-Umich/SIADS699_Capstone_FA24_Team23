@@ -18,7 +18,6 @@ const removeLoadingScreen = () => {
 
 // Initialize analytics
 const initializeAnalytics = () => {
-  // Add your analytics initialization code here
   console.log('Analytics initialized');
 };
 
@@ -86,8 +85,7 @@ window.onerror = function(message, source, lineno, colno, error) {
     colno,
     error
   });
-  
-  // You can add error reporting service here
+
   return false;
 };
 

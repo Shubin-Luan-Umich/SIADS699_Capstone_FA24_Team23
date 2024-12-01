@@ -63,70 +63,42 @@ class FeedbackHandler:
                 conn.close()
 
     def save_feedback(self, 
-                    #  image_name: str,
-                    #  cluster_id: int,
                      rating: int,
                      feedback_text: str,
-                    #  selected_products: Optional[List[str]] = None,
-                    #  user_agent: Optional[str] = None,
                      ip_address: Optional[str] = None) -> int:
         """Save user feedback to database.
-        
         Args:
-            image_name: Name of the uploaded image
-            cluster_id: ID of the color cluster
             rating: User rating (1-5)
             feedback_text: User feedback text
-            selected_products: List of selected product IDs
-            user_agent: User's browser information
             ip_address: User's IP address
-            
         Returns:
             int: ID of the inserted feedback
-            
+
         Raises:
             ValueError: If rating is invalid
             Exception: If database operation fails
         """
-        print("31", flush=True)
         if not 1 <= rating <= 5:
             raise ValueError("Rating must be between 1 and 5")
-            
         try:
-            print("32", flush=True)
             conn = mysql.connector.connect(**self.db_config)
             cursor = conn.cursor()
-            
-            # query = '''
-            #     INSERT INTO feedback (
-            #         image_name, cluster_id, rating, feedback_text, 
-            #         selected_products, user_agent, ip_address
-            #     ) VALUES (%s, %s, %s, %s, %s, %s, %s)
-            # '''
             query = '''
                 INSERT INTO feedback (
                     rating, feedback_text
                 ) VALUES (%s, %s)
             '''
             values = (
-                # image_name,
-                # cluster_id,
                 rating,
                 feedback_text
-                # ','.join(selected_products) if selected_products else None,
-                # user_agent,
-                # ip_address
+
             )
-            
             cursor.execute(query, values)
             conn.commit()
-            print("33", flush=True)
             return cursor.lastrowid
-            
         except Exception as e:
             print(f"Error saving feedback: {str(e)}")
             raise
-            
         finally:
             if 'cursor' in locals():
                 cursor.close()
@@ -135,16 +107,16 @@ class FeedbackHandler:
 
     def get_all_feedback(self) -> List[Dict]:
         """Retrieve all feedback from database.
-        
+
         Returns:
             List[Dict]: List of feedback entries
         """
         try:
             conn = mysql.connector.connect(**self.db_config)
             cursor = conn.cursor(dictionary=True)
-            
+
             cursor.execute('''
-                SELECT 
+                SELECT
                     f.*,
                     COUNT(rf.id) as recommendation_responses,
                     SUM(rf.is_helpful) as helpful_count
@@ -153,22 +125,22 @@ class FeedbackHandler:
                 GROUP BY f.id
                 ORDER BY f.created_at DESC
             ''')
-            
+
             feedback_list = cursor.fetchall()
-            
+
             # Convert datetime objects to string for JSON serialization
             for feedback in feedback_list:
                 feedback['created_at'] = feedback['created_at'].isoformat()
                 if feedback['selected_products']:
                     feedback['selected_products'] = \
                         feedback['selected_products'].split(',')
-            
+
             return feedback_list
-            
+
         except Exception as e:
             print(f"Error retrieving feedback: {str(e)}")
             raise
-            
+
         finally:
             if 'cursor' in locals():
                 cursor.close()
@@ -180,7 +152,7 @@ class FeedbackHandler:
                                   product_id: str,
                                   is_helpful: bool) -> None:
         """Add feedback for specific product recommendations.
-        
+
         Args:
             feedback_id: ID of the original feedback
             product_id: ID of the recommended product
@@ -189,22 +161,22 @@ class FeedbackHandler:
         try:
             conn = mysql.connector.connect(**self.db_config)
             cursor = conn.cursor()
-            
+
             query = '''
                 INSERT INTO recommendations_feedback (
                     feedback_id, product_id, is_helpful
                 ) VALUES (%s, %s, %s)
             '''
-            
+
             values = (feedback_id, product_id, is_helpful)
-            
+
             cursor.execute(query, values)
             conn.commit()
-            
+
         except Exception as e:
             print(f"Error adding recommendation feedback: {str(e)}")
             raise
-            
+
         finally:
             if 'cursor' in locals():
                 cursor.close()

@@ -63,12 +63,12 @@ class FeedbackHandler:
                 conn.close()
 
     def save_feedback(self, 
-                     image_name: str,
-                     cluster_id: int,
+                    #  image_name: str,
+                    #  cluster_id: int,
                      rating: int,
                      feedback_text: str,
-                     selected_products: Optional[List[str]] = None,
-                     user_agent: Optional[str] = None,
+                    #  selected_products: Optional[List[str]] = None,
+                    #  user_agent: Optional[str] = None,
                      ip_address: Optional[str] = None) -> int:
         """Save user feedback to database.
         
@@ -88,33 +88,39 @@ class FeedbackHandler:
             ValueError: If rating is invalid
             Exception: If database operation fails
         """
+        print("31", flush=True)
         if not 1 <= rating <= 5:
             raise ValueError("Rating must be between 1 and 5")
             
         try:
+            print("32", flush=True)
             conn = mysql.connector.connect(**self.db_config)
             cursor = conn.cursor()
             
+            # query = '''
+            #     INSERT INTO feedback (
+            #         image_name, cluster_id, rating, feedback_text, 
+            #         selected_products, user_agent, ip_address
+            #     ) VALUES (%s, %s, %s, %s, %s, %s, %s)
+            # '''
             query = '''
                 INSERT INTO feedback (
-                    image_name, cluster_id, rating, feedback_text, 
-                    selected_products, user_agent, ip_address
-                ) VALUES (%s, %s, %s, %s, %s, %s, %s)
+                    rating, feedback_text
+                ) VALUES (%s, %s)
             '''
-            
             values = (
-                image_name,
-                cluster_id,
+                # image_name,
+                # cluster_id,
                 rating,
-                feedback_text,
-                ','.join(selected_products) if selected_products else None,
-                user_agent,
-                ip_address
+                feedback_text
+                # ','.join(selected_products) if selected_products else None,
+                # user_agent,
+                # ip_address
             )
             
             cursor.execute(query, values)
             conn.commit()
-            
+            print("33", flush=True)
             return cursor.lastrowid
             
         except Exception as e:

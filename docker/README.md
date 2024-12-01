@@ -1,6 +1,6 @@
-# LipShade Lab - Personalized Lipstick Recommendation System
+# Lipstick Recommendation - Personalized Lipstick Recommendation System
 
-LipShade Lab is an AI-powered web application that provides personalized lipstick recommendations based on user's skin tone analysis. The system uses facial detection, color analysis, and a sophisticated recommendation engine to suggest the most suitable lipstick products.
+Lipstick Recommendation is an AI-powered web application that provides personalized lipstick recommendations based on user's skin tone analysis. The system uses facial detection, color analysis, and a sophisticated recommendation engine to suggest the most suitable lipstick products.
 
 ## Project Structure
 
@@ -130,6 +130,9 @@ lipshade-lab/
    # Clean up old containers and images
    docker-compose down
    docker system prune -f
+
+   # Delete node_modules
+   rm -rf frontend/node_modules
 
    # Rebuild and start containers
    docker-compose up --build

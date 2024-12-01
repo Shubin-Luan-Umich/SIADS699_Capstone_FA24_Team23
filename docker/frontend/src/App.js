@@ -13,6 +13,7 @@ import axios from 'axios';
 
 import ImageUpload from './components/ImageUpload';
 import RecommendationView from './components/RecommendationView';
+import { ImageContext } from './contexts/ImageContext'; 
 
 // Create theme
 const theme = createTheme({
@@ -49,10 +50,12 @@ function App() {
   const [clusterInfo, setClusterInfo] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
+  const [imageFile, setImageFile] = useState(null);
 
   const handleImageUpload = async (file) => {
     setIsLoading(true);
     setError(null);
+    setImageFile(file);
 
     const formData = new FormData();
     formData.append('image', file);
@@ -72,10 +75,16 @@ function App() {
   };
 
   const handleFilterChange = async ({ sortBy, priceRange, numResults }) => {
+    if (!imageFile) {
+      setError('No image found. Please upload an image first.');
+      return;
+    }
+
     setIsLoading(true);
     setError(null);
 
     const formData = new FormData();
+    formData.append('image', imageFile);
     formData.append('sort_by', sortBy);
     formData.append('n_recommendations', numResults);
     formData.append('min_price', priceRange[0]);
@@ -84,7 +93,10 @@ function App() {
     try {
       const response = await axios.post(
         'http://localhost:5001/recommendations',
-        formData
+        formData,
+        {	
+          headers: { 'Content-Type': 'multipart/form-data' },
+        }
       );
 
       setRecommendations(response.data.recommendations);
@@ -96,46 +108,48 @@ function App() {
   };
 
   return (
-    <ThemeProvider theme={theme}>
-      <CssBaseline />
-      
-      {/* App Bar */}
-      <AppBar position="static" color="primary">
-        <Toolbar>
-          <Typography variant="h6" component="div">
-            LipShade Lab 💄
-          </Typography>
-        </Toolbar>
-      </AppBar>
+    <ImageContext.Provider value={{ imageFile, setImageFile }}>
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
+        
+        {/* App Bar */}
+        <AppBar position="static" color="primary">
+          <Toolbar>
+            <Typography variant="h6" component="div">
+              Lipstick Recommendation 💄
+            </Typography>
+          </Toolbar>
+        </AppBar>
 
-      <Container maxWidth="lg" sx={{ py: 4 }}>
-        {/* Image Upload */}
-        <ImageUpload 
-          onImageUpload={handleImageUpload}
-          isLoading={isLoading}
-        />
-
-        {/* Recommendations */}
-        {recommendations && clusterInfo && (
-          <RecommendationView
-            recommendations={recommendations}
-            clusterInfo={clusterInfo}
-            onFilterChange={handleFilterChange}
+        <Container maxWidth="lg" sx={{ py: 4 }}>
+          {/* Image Upload */}
+          <ImageUpload 
+            onImageUpload={handleImageUpload}
+            isLoading={isLoading}
           />
-        )}
 
-        {/* Error Snackbar */}
-        <Snackbar
-          open={!!error}
-          autoHideDuration={6000}
-          onClose={() => setError(null)}
-        >
-          <Alert severity="error" onClose={() => setError(null)}>
-            {error}
-          </Alert>
-        </Snackbar>
-      </Container>
-    </ThemeProvider>
+          {/* Recommendations */}
+          {recommendations && clusterInfo && (
+            <RecommendationView
+              recommendations={recommendations}
+              clusterInfo={clusterInfo}
+              onFilterChange={handleFilterChange}
+            />
+          )}
+
+          {/* Error Snackbar */}
+          <Snackbar
+            open={!!error}
+            autoHideDuration={6000}
+            onClose={() => setError(null)}
+          >
+            <Alert severity="error" onClose={() => setError(null)}>
+              {error}
+            </Alert>
+          </Snackbar>
+        </Container>
+      </ThemeProvider>
+    </ImageContext.Provider>
   );
 }
 

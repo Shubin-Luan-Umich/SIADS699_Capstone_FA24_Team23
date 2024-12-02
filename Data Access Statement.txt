@@ -1,17 +1,17 @@
 The dataset used in this project contains publicly available product information collected from Sephora's website (www.sephora.com) in December 2024. The data collection process adhered to the following principles:
 
-1.	Only publicly accessible product information was collected
-2.	No authentication or login credentials were required to access the data
-3.	Request rates were maintained at reasonable levels to prevent server strain
-4.	Only publicly displayed information was collected, with no access to private or restricted data
+  1. Only publicly accessible product information was collected
+  2. No authentication or login credentials were required to access the data
+  3. Request rates were maintained at reasonable levels to prevent server strain
+  4. Only publicly displayed information was collected, with no access to private or restricted data
 
 The collected data includes product names, descriptions, prices, ratings, and other publicly visible product attributes. This information is used solely for academic research purposes as part of a capstone project.
 
 The data collection process respected:
--	Website accessibility guidelines
--	Server load considerations
--	Public data boundaries
--	Fair use principles
+  - Website accessibility guidelines
+  - Server load considerations
+  - Public data boundaries
+  - Fair use principles
 
 No redistribution of the raw data is planned. Any derived analyses or findings will be presented in aggregate form for academic purposes only.
 For researchers interested in replicating this study, the data can be collected from Sephora's public product pages following similar responsible collection practices.

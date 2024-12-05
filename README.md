@@ -72,7 +72,7 @@ git clone https://github.com/Shubin-Luan-Umich/SIADS699_Capstone_FA24_Team23.git
 | RGB | string | RGB color value | "rgb(149,19,44)" |
 | Rating | float | User rating (1-5) | 4.5 |
 | Reviews | integer | Number of user reviews | 1250 |
-| Price.listPrice | string | Product price | "$20.00" |
+| Price | integer | Product price | 20 |
 | URL | string | Product URL | "https://www.sephora.com/..." |
 | Cover Image | string | Base64 encoded cover image | (base64 string) |
 | Lipstick Image | string | Base64 encoded lipstick image | (base64 string) |

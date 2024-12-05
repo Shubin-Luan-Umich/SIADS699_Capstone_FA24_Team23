@@ -101,6 +101,7 @@ def calculate_recommendation_score(rating, reviews, max_reviews):
     # Final score
     final_score = (0.7 * rating_score + 0.3 * review_score) * 100
     return round(final_score, 2)
+```
 
 ## 📱 Usage Guide
 

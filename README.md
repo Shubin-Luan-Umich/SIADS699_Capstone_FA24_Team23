@@ -1,3 +1,4 @@
+![Alt text](Screenshot.png)
 > **🚧 UNDER CONSTRUCTION 🚧**
 > 
 # LipShade Lab 💄

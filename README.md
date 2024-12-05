@@ -1,13 +1,10 @@
-![Alt text](Screenshot.png)
-> **🚧 UNDER CONSTRUCTION 🚧**
-> 
-# LipShade Lab 💄
+# Lipstick Recommendation 💄
 
 > An AI-powered web application that recommends personalized lipstick colors and brands based on user-uploaded images.
 
 ## 🌟 Overview
 
-LipShade Lab is a Docker-based application that leverages image processing and machine learning to provide customized lipstick recommendations. Users can upload photos through an intuitive web interface, receive instant color and brand suggestions, and provide feedback to help improve future recommendations.
+Lipstick Recommendation System is a Docker-based application that leverages image processing and machine learning to provide customized lipstick recommendations. Users can upload photos through an intuitive web interface, receive instant color and brand suggestions, and provide feedback to help improve future recommendations.
 
 ## ✨ Key Features
 
@@ -16,6 +13,8 @@ LipShade Lab is a Docker-based application that leverages image processing and m
 - 💄 **Brand Matching**: Matches your perfect shade with available products
 - 📊 **User Feedback System**: Collects and analyzes user ratings for continuous improvement
 - 🔄 **Containerized Architecture**: Fully dockerized for consistent deployment and scaling
+
+![Alt text](Screenshot.png)
 
 ## 🛠️ Tech Stack
 
@@ -40,8 +39,7 @@ LipShade Lab is a Docker-based application that leverages image processing and m
 
 1. Clone the repository
 ```bash
-git clone https://github.com/Shubin-Luan-Umich/SIADS699_Capstone_FA24_Team15.git
-cd docker
+git clone https://github.com/Shubin-Luan-Umich/SIADS699_Capstone_FA24_Team23.git
 ```
 
 2. Launch the application
@@ -61,7 +59,36 @@ cd docker
 
 3. Access the application at [http://localhost:3000](http://localhost:3000)
 
+## 📊 Data Architecture
+
+### 💾 Data Schema
+
+| Field Name | Type | Description | Example |
+|------------|------|-------------|----------|
+| Brand | string | Cosmetics brand name | "Anastasia Beverly Hills" |
+| Name | string | Product display name | "Liquid Lipstick" |
+| Color Description | string | Color description | "American Doll classic blue red" |
+| Color Cluster | integer | Color group (0-5) | 3 |
+| RGB | string | RGB color value | "rgb(149,19,44)" |
+| Rating | float | User rating (1-5) | 4.5 |
+| Reviews | integer | Number of user reviews | 1250 |
+| Price.listPrice | string | Product price | "$20.00" |
+| URL | string | Product URL | "https://www.sephora.com/..." |
+| Cover Image | string | Base64 encoded cover image | (base64 string) |
+| Lipstick Image | string | Base64 encoded lipstick image | (base64 string) |
+| Recommendation Score | float | Overall score (0-100) | 85.67 |
+
+
 ## 📱 Usage Guide
+
+
+
+
+
+
+
+
+
 
 ### 1. Upload Your Photo
 - Click the upload button or drag & drop your photo

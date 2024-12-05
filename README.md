@@ -117,3 +117,5 @@ For questions or feedback, please contact our team:
 
 ---
 Built with ❤️ by Team 23 | SIADS699 Capstone Project FA24
+
+Regarding the above GitHub README, please including the information I sent in the previous 2 posts, and complete GitHub README again in a very professional way. I also want to include the application screenshots as well. Therefore, uses can understand my application clearly.

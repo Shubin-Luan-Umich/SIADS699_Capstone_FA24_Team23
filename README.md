@@ -84,6 +84,7 @@ git clone https://github.com/Shubin-Luan-Umich/SIADS699_Capstone_FA24_Team23.git
 1: Soft Pink     4: Deep Burgundy
 2: Nude          5: Coral Pink
 
+![Alt text](color_clusters.png)
 ## 📱 Usage Guide
 
 

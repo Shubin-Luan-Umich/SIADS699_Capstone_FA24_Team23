@@ -78,6 +78,11 @@ git clone https://github.com/Shubin-Luan-Umich/SIADS699_Capstone_FA24_Team23.git
 | Lipstick Image | string | Base64 encoded lipstick image | (base64 string) |
 | Recommendation Score | float | Overall score (0-100) | 85.67 |
 
+### 🎨 Color Clusters
+
+0: Warm Brown    3: Classic Red
+1: Soft Pink     4: Deep Burgundy
+2: Nude          5: Coral Pink
 
 ## 📱 Usage Guide
 

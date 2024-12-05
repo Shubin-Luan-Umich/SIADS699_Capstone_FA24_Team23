@@ -80,9 +80,12 @@ git clone https://github.com/Shubin-Luan-Umich/SIADS699_Capstone_FA24_Team23.git
 
 ### 🎨 Color Clusters
 
-0: Warm Brown    3: Classic Red
-1: Soft Pink     4: Deep Burgundy
-2: Nude          5: Coral Pink
+0: Warm Brown
+1: Soft Pink
+2: Nude
+3: Classic Red
+4: Deep Burgundy
+5: Coral Pink
 
 ![Alt text](color_clusters.png)
 ## 📱 Usage Guide

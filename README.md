@@ -80,29 +80,19 @@ git clone https://github.com/Shubin-Luan-Umich/SIADS699_Capstone_FA24_Team23.git
 
 ### 🎨 Color Clusters
 
-0: Warm Brown; 
-1: Soft Pink; 
-2: Nude; 
-3: Classic Red; 
-4: Deep Burgundy; 
+0: Warm Brown, 
+1: Soft Pink, 
+2: Nude, 
+3: Classic Red, 
+4: Deep Burgundy, 
 5: Coral Pink
 
 ![Alt text](color_clusters.png)
+
 ## 📱 Usage Guide
-
-
-
-
-
-
-
-
-
 
 ### 1. Upload Your Photo
 - Click the upload button or drag & drop your photo
-- Supported formats: JPG, PNG, HEIC
-- Recommended image size: 1024x1024px or larger
 
 ### 2. Get Recommendations
 - View your processed image
@@ -117,21 +107,36 @@ git clone https://github.com/Shubin-Luan-Umich/SIADS699_Capstone_FA24_Team23.git
 ## 📁 Project Structure
 
 ```
-lipshade-lab-app/
+lipshade-lab/
 ├── docker-compose.yml          # Container orchestration
-├── frontend/
-│   ├── Dockerfile             # Frontend container config
-│   ├── package.json           # Dependencies
+├── frontend/                   # Frontend React application
+│   ├── Dockerfile              # Frontend container configuration
+│   ├── package.json            # Node.js dependencies
+│   ├── public/
+│   │   └── index.html
 │   └── src/
-│       ├── App.js            # Main React component
-│       └── index.js          # Entry point
-├── backend/
-│   ├── Dockerfile            # Backend container config
-│   ├── app.py               # Flask application
-│   ├── feedback_handler.py   # Feedback management
-│   ├── image_processor.py    # Image analysis
-│   └── requirements.txt      # Python dependencies
-└── README.md                 # Documentation
+│       ├── index.js
+│       ├── App.js
+│       ├── contexts/
+│       │   └── ImageContext.js
+│       ├── components/
+│       │   ├── ImageUpload.js
+│       │   ├── RecommendationView.js
+│       │   └── FeedbackDialog.js
+│       └── theme.js
+│
+├── backend/                    # Backend Flask application
+│   ├── Dockerfile              # Backend container configuration
+│   ├── requirements.txt        # Python dependencies
+│   ├── models/
+│   │   └── sephora_lipstick_clustering_model.pkl
+│   ├── data/
+│   │   └── lipstick_recommendation_dataset.csv
+│   ├── feedback_handler.py
+│   ├── image_processor.py
+│   ├── lipstick_recommender.py
+│   └── models.py
+└── mysql
 ```
 
 ## 🔮 Future Roadmap
@@ -154,5 +159,3 @@ For questions or feedback, please contact our team:
 
 ---
 Built with ❤️ by Team 23 | SIADS699 Capstone Project FA24
-
-Regarding the above GitHub README, please including the information I sent in the previous 2 posts, and complete GitHub README again in a very professional way. I also want to include the application screenshots as well. Therefore, uses can understand my application clearly.

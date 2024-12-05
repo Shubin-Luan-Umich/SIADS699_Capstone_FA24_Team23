@@ -89,6 +89,19 @@ git clone https://github.com/Shubin-Luan-Umich/SIADS699_Capstone_FA24_Team23.git
 
 ![Alt text](color_clusters.png)
 
+### 🧮 Recommendation Score Calculation
+```python
+def calculate_recommendation_score(rating, reviews, max_reviews):
+    # Rating component (70% weight)
+    rating_score = rating / 5.0
+
+    # Review component (30% weight)
+    review_score = np.log1p(reviews) / np.log1p(max_reviews)
+
+    # Final score
+    final_score = (0.7 * rating_score + 0.3 * review_score) * 100
+    return round(final_score, 2)
+
 ## 📱 Usage Guide
 
 ### 1. Upload Your Photo
